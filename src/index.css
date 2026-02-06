@@ -6,64 +6,64 @@
 
 @layer base {
   :root {
-    --background: 120 15% 97%;
-    --foreground: 248 92% 26%;
+    --background: 150 20% 98%;
+    --foreground: 200 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 248 92% 26%;
+    --card-foreground: 200 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 248 92% 26%;
+    --popover-foreground: 200 25% 15%;
 
-    --primary: 133 64% 45%;
+    --primary: 160 45% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 248 92% 26%;
+    --secondary: 200 60% 25%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 133 10% 92%;
-    --muted-foreground: 248 30% 40%;
+    --muted: 150 15% 92%;
+    --muted-foreground: 200 15% 45%;
 
-    --accent: 39 96% 57%;
-    --accent-foreground: 248 92% 26%;
+    --accent: 45 90% 55%;
+    --accent-foreground: 200 25% 15%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 133 10% 88%;
-    --input: 133 10% 88%;
-    --ring: 174 58% 53%;
+    --border: 150 15% 88%;
+    --input: 150 15% 88%;
+    --ring: 160 45% 35%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(133 64% 45%) 0%, hsl(248 92% 26%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(120 15% 97%) 0%, hsl(120 10% 93%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(133 10% 97%) 100%);
-    --shadow-soft: 0 4px 20px -4px hsl(248 92% 26% / 0.08);
-    --shadow-elevated: 0 12px 40px -8px hsl(248 92% 26% / 0.12);
+    --gradient-hero: linear-gradient(135deg, hsl(160 45% 35%) 0%, hsl(200 60% 25%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(150 20% 98%) 0%, hsl(150 15% 94%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(150 15% 97%) 100%);
+    --shadow-soft: 0 4px 20px -4px hsl(200 25% 15% / 0.08);
+    --shadow-elevated: 0 12px 40px -8px hsl(200 25% 15% / 0.12);
     --font-display: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
   }
 
   .dark {
-    --background: 248 50% 8%;
-    --foreground: 133 15% 95%;
-    --card: 248 40% 12%;
-    --card-foreground: 133 15% 95%;
-    --popover: 248 40% 12%;
-    --popover-foreground: 133 15% 95%;
-    --primary: 133 64% 50%;
-    --primary-foreground: 248 92% 10%;
-    --secondary: 248 70% 45%;
+    --background: 200 25% 10%;
+    --foreground: 150 15% 95%;
+    --card: 200 25% 12%;
+    --card-foreground: 150 15% 95%;
+    --popover: 200 25% 12%;
+    --popover-foreground: 150 15% 95%;
+    --primary: 160 50% 45%;
+    --primary-foreground: 200 25% 10%;
+    --secondary: 200 50% 40%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 248 25% 18%;
-    --muted-foreground: 133 10% 65%;
-    --accent: 39 90% 52%;
-    --accent-foreground: 248 92% 10%;
-    --border: 248 25% 20%;
-    --input: 248 25% 20%;
-    --ring: 174 58% 48%;
+    --muted: 200 20% 18%;
+    --muted-foreground: 150 10% 65%;
+    --accent: 45 85% 50%;
+    --accent-foreground: 200 25% 10%;
+    --border: 200 20% 20%;
+    --input: 200 20% 20%;
+    --ring: 160 50% 45%;
   }
 }
 
