@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Ville durable avec panneaux solaires"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/70 to-foreground/40" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       {/* Content */}
