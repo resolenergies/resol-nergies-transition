@@ -26,7 +26,7 @@ const services = [
   {
     icon: UserCheck,
     title: "Référent Énergie Délégué",
-    subtitle: "Pour les collectivités — ou « Direction Énergie Externalisée » pour les PMI/PME",
+    subtitle: "Direction Énergie Externalisée",
     description: "Bénéficiez d'un référent énergie dédié pour piloter votre transition sans embaucher. Un crédit-temps mensuel (heures ou jours) pour déléguer tout ou partie de votre gestion énergétique.",
     sections: [
       {
