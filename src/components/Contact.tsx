@@ -29,8 +29,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <a href="mailto:marc@resolenergies.com" className="text-foreground font-medium hover:text-primary transition-colors">
-                    marc@resolenergies.com
+                  <a href="mailto:contact@resol-energies.fr" className="text-foreground font-medium hover:text-primary transition-colors">
+                    contact@resol-energies.fr
                   </a>
                 </div>
               </div>
@@ -40,8 +40,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Téléphone</p>
-                  <a href="tel:+33640305326" className="text-foreground font-medium hover:text-primary transition-colors">
-                    +33 (0) 6 40 30 53 26
+                  <a href="tel:+33123456789" className="text-foreground font-medium hover:text-primary transition-colors">
+                    01 23 45 67 89
                   </a>
                 </div>
               </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Adresse</p>
                   <p className="text-foreground font-medium">
-                    Perpignan, France
+                    Paris, France
                   </p>
                 </div>
               </div>

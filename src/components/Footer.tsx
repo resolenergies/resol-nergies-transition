@@ -53,13 +53,13 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li className="text-primary-foreground/60">
-                marc@resolenergies.com
+                contact@resol-energies.fr
               </li>
               <li className="text-primary-foreground/60">
-                +33 (0) 6 40 30 53 26
+                01 23 45 67 89
               </li>
               <li className="text-primary-foreground/60">
-                Perpignan, France
+                Paris, France
               </li>
             </ul>
           </div>
