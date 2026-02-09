@@ -24,6 +24,16 @@ const services = [
     ],
   },
   {
+    icon: Scale,
+    title: "Réglementation",
+    description: "Sécurisez votre commune face aux obligations réglementaires en vigueur.",
+    details: [
+      "Décret Éco-énergie tertiaire : déclaration OPERAT et mise en conformité",
+      "Décret BACS : identification et accompagnement",
+      "Directive Efficacité énergétique : mise en conformité",
+    ],
+  },
+  {
     icon: UserCheck,
     title: "Référent Énergie Délégué",
     subtitle: "Direction Énergie Externalisée",
@@ -60,16 +70,6 @@ const services = [
       "Accompagnement à la préparation d'audits et d'études",
       "Études énergétiques de bâtiments et études CVC",
       "Conseils de sobriété énergétique et solutions low-tech",
-    ],
-  },
-  {
-    icon: Scale,
-    title: "Réglementation",
-    description: "Sécurisez votre commune face aux obligations réglementaires en vigueur.",
-    details: [
-      "Décret Éco-énergie tertiaire : déclaration OPERAT et mise en conformité",
-      "Décret BACS : identification et accompagnement",
-      "Directive Efficacité énergétique : mise en conformité",
     ],
   },
   {
