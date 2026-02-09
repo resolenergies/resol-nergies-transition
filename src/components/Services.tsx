@@ -1,4 +1,4 @@
-import { FileSearch, LineChart, HardHat, Scale, GraduationCap, MessageCircle } from "lucide-react";
+import { FileSearch, LineChart, UserCheck, HardHat, Scale, GraduationCap, MessageCircle } from "lucide-react";
 
 const services = [
   {
@@ -22,6 +22,34 @@ const services = [
       "Paramétrage d'outils de suivi pour un pilotage dans la durée",
       "Pilotage ou aide au pilotage des actions engagées",
     ],
+  },
+  {
+    icon: UserCheck,
+    title: "Référent Énergie Délégué",
+    subtitle: "Pour les collectivités — ou « Direction Énergie Externalisée » pour les PMI/PME",
+    description: "Bénéficiez d'un référent énergie dédié pour piloter votre transition sans embaucher. Un crédit-temps mensuel (heures ou jours) pour déléguer tout ou partie de votre gestion énergétique.",
+    sections: [
+      {
+        heading: "Les Missions",
+        intro: "Ce forfait 360° s'adapte à vos priorités et pioche dans l'ensemble de nos expertises :",
+        items: [
+          "Veille & Conseil : Assistance technique et réglementaire permanente (Décret Tertiaire, BACS, etc.).",
+          "Pilotage Continu : Suivi des consommations, analyse des indicateurs et ajustement du plan d'actions.",
+          "AMO & Travaux : Suivi de vos chantiers de rénovation et optimisation des installations CVC.",
+          "Accompagnement : Réunions de suivi avec vos élus ou techniciens et sensibilisation des agents.",
+        ],
+      },
+      {
+        heading: "Vos Bénéfices",
+        items: [
+          "Expertise sur mesure : Un expert qui connaît votre patrimoine sur le bout des doigts.",
+          "Continuité : Vos dossiers avancent chaque mois, sans interruption.",
+          "Budget maîtrisé : Une dépense lissée et une assistance prioritaire.",
+        ],
+      },
+    ],
+    details: [],
+    isHighlighted: true,
   },
   {
     icon: HardHat,
@@ -87,7 +115,7 @@ const Services = () => {
               key={service.title}
               className={`group bg-card rounded-xl p-6 lg:p-8 shadow-soft hover:shadow-elevated transition-all duration-300 hover:-translate-y-1 ${
                 service.isContact ? "border-2 border-dashed border-primary/30 flex flex-col justify-center items-center text-center" : ""
-              }`}
+              } ${service.isHighlighted ? "md:col-span-2 lg:col-span-3 border-2 border-primary/20 bg-primary/5" : ""}`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-5 group-hover:scale-110 transition-all duration-300 ${
@@ -99,13 +127,34 @@ const Services = () => {
                     : "text-primary group-hover:text-primary-foreground"
                 }`} />
               </div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+              <h3 className="font-display text-xl font-semibold text-foreground mb-2">
                 {service.title}
               </h3>
+              {service.subtitle && (
+                <p className="text-sm text-primary font-medium mb-3">{service.subtitle}</p>
+              )}
               <p className="text-muted-foreground leading-relaxed mb-4">
                 {service.description}
               </p>
-              {service.details.length > 0 && (
+              {service.sections && (
+                <div className={`grid gap-6 ${service.isHighlighted ? "md:grid-cols-2" : ""}`}>
+                  {service.sections.map((section) => (
+                    <div key={section.heading}>
+                      <h4 className="font-display font-semibold text-foreground mb-2">{section.heading}</h4>
+                      {section.intro && <p className="text-sm text-muted-foreground mb-3">{section.intro}</p>}
+                      <ul className="space-y-2">
+                        {section.items.map((item) => (
+                          <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <div className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {service.details.length > 0 && !service.sections && (
                 <ul className="space-y-2">
                   {service.details.map((detail) => (
                     <li key={detail} className="flex items-start gap-2 text-sm text-muted-foreground">
