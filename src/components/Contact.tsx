@@ -28,8 +28,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <a href="mailto:contact@resol-energies.fr" className="text-foreground font-medium hover:text-primary transition-colors">
-                    contact@resol-energies.fr
+                  <a href="mailto:marc@resolenergies.com" className="text-foreground font-medium hover:text-primary transition-colors">
+                    marc@resolenergies.com
                   </a>
                 </div>
               </div>
@@ -39,9 +39,13 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Téléphone</p>
-                  <a href="tel:+33123456789" className="text-foreground font-medium hover:text-primary transition-colors">
-                    01 23 45 67 89
-                  </a>
+                  <span
+                    className="text-foreground font-medium hover:text-primary transition-colors cursor-pointer"
+                    onClick={() => window.location.href = 'tel:' + ['+33','(0)6','47','43','82','58'].join('')}
+                    aria-label="Appeler"
+                  >
+                    {['+33','(0)6','.47','.43','.82','.58'].join('\u200B')}
+                  </span>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -51,7 +55,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Adresse</p>
                   <p className="text-foreground font-medium">
-                    Paris, France
+                    Perpignan, France
                   </p>
                 </div>
               </div>
