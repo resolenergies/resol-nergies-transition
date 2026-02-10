@@ -31,17 +31,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-primary-foreground/60 hover:text-accent transition-colors">
-                  Audit énergétique
+                  Référent Énergie Délégué
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/60 hover:text-accent transition-colors">
-                  Conseil stratégique
+                  Études & Diagnostics
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/60 hover:text-accent transition-colors">
-                  Rénovation énergétique
+                  Pilotage & Suivi
                 </a>
               </li>
             </ul>

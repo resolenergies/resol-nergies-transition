@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Leaf } from "lucide-react";
+import { ArrowRight, Leaf, Users } from "lucide-react";
 import heroImage from "@/assets/hero-energy.jpg";
 
 const Hero = () => {
@@ -17,32 +17,37 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-fade-up">
-            <Leaf className="w-4 h-4 text-accent" />
+            <Users className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-primary-foreground/90">
-              Conseil en transition énergétique
+              Votre Référent Énergie Délégué
             </span>
           </div>
 
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Réduisez votre empreinte énergétique, 
-            <span className="text-accent"> durablement</span>
+            RESOL Énergies :{" "}
+            <span className="text-accent">Votre Référent Énergie Délégué</span>
           </h1>
 
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 leading-relaxed animate-fade-up font-display italic" style={{ animationDelay: "0.15s" }}>
+            "Parce que la transition énergétique ne s'arrête pas à un rapport d'audit, nous pilotons votre stratégie de l'intérieur."
+          </p>
+
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Resol Énergies accompagne les collectivités, entreprises et particuliers 
-            dans leur transition énergétique avec une vision globale et des études 
-            personnalisées pour optimiser vos consommations.
+            À travers un forfait de temps régulier, nous devenons votre interlocuteur unique 
+            pour coordonner l'ensemble de vos enjeux énergétiques.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button variant="hero" size="xl">
-              Découvrir nos services
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" asChild>
+              <a href="#services">
+                Découvrir nos expertises
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
-            <Button variant="heroOutline" size="xl">
-              Nous contacter
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="#contact">Nous rencontrer</a>
             </Button>
           </div>
 
