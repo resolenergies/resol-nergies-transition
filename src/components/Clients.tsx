@@ -5,19 +5,19 @@ const clientTypes = [
     icon: Building,
     title: "Collectivités",
     description: "Communes, intercommunalités, départements et régions souhaitant optimiser leur patrimoine public et réduire leurs dépenses énergétiques.",
-    features: ["Audit du patrimoine communal", "Plan pluriannuel d'investissement", "Accompagnement aux financements"],
+    features: ["Stratégie énergétique du patrimoine", "Plan pluriannuel d'investissement", "Accompagnement aux financements"],
   },
   {
     icon: Factory,
     title: "Entreprises",
     description: "PME, ETI et grands groupes cherchant à maîtriser leurs coûts énergétiques et améliorer leur performance environnementale.",
-    features: ["Audit industriel", "Certification ISO 50001", "Décarbonation des process"],
+    features: ["Pilotage des consommations", "Conformité réglementaire", "Optimisation des usages"],
   },
   {
     icon: Home,
     title: "Particuliers",
     description: "Propriétaires et copropriétés désireux d'améliorer le confort de leur habitat tout en réduisant leurs factures.",
-    features: ["Audit thermique", "Accompagnement MaPrimeRénov'", "Suivi des travaux"],
+    features: ["Conseil en rénovation énergétique", "Indépendance énergétique", "Optimisation du confort"],
   },
 ];
 

@@ -1,4 +1,4 @@
-import { FileSearch, LineChart, HardHat, Scale, GraduationCap } from "lucide-react";
+import { FileSearch, LineChart, HardHat, Scale, GraduationCap, MessageCircleQuestion, ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -115,6 +115,28 @@ const Services = () => {
               </div>
             </div>
           ))}
+
+          {/* 6th card - Custom */}
+          <div className="group bg-gradient-hero rounded-xl p-6 lg:p-8 shadow-soft hover:shadow-elevated transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center text-center"
+            style={{ animationDelay: `0.5s` }}
+          >
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-5 bg-primary-foreground/20">
+              <MessageCircleQuestion className="w-6 h-6 text-primary-foreground" />
+            </div>
+            <h3 className="font-display text-xl font-semibold text-primary-foreground mb-2">
+              Besoin d'autre chose ?
+            </h3>
+            <p className="text-primary-foreground/80 leading-relaxed mb-6">
+              Vous ne trouvez pas ce dont vous avez besoin ? Contactez-nous pour des solutions personnalisées et adaptées à vos besoins.
+            </p>
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 bg-primary-foreground text-primary font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
+            >
+              Nous contacter
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
