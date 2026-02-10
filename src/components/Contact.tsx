@@ -12,13 +12,12 @@ const Contact = () => {
               Contact
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Parlons de votre projet de 
-              <span className="text-primary"> transition énergétique</span>
+              Prêt à reprendre le contrôle de 
+              <span className="text-primary">vos consommations ?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-10">
-              Contactez-nous pour un premier échange gratuit et sans engagement. 
-              Nous étudierons ensemble vos besoins et définirons la meilleure 
-              approche pour atteindre vos objectifs.
+              Rencontrons-nous pour définir le volume d'accompagnement adapté 
+              à vos besoins et bâtir ensemble une stratégie qui a du sens.
             </p>
 
             {/* Contact Info */}
