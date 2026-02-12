@@ -1,0 +1,138 @@
+{
+  "header": {
+    "services": "Les nostres competències",
+    "approach": "Per què triar-nos",
+    "clients": "Els nostres clients",
+    "contact": "Contacte",
+    "cta": "Demanar pressupost"
+  },
+  "hero": {
+    "badge": "El vostre Referent Energètic Delegat",
+    "title": "RESOL Énergies:",
+    "titleHighlight": "El vostre Referent Energètic Delegat",
+    "subtitle": "\"Perquè la transició energètica no s'atura en un informe d'auditoria, pilotem la vostra estratègia des de dins.\"",
+    "description": "A través d'un forfet de temps regular, ens convertim en el vostre interlocutor únic per coordinar tots els vostres reptes energètics.",
+    "ctaPrimary": "Descobrir les nostres competències",
+    "ctaSecondary": "Coneixeu-nos",
+    "stat1Value": "14+",
+    "stat1Label": "Entitats acompanyades",
+    "stat2Value": "500+",
+    "stat2Label": "Projectes realitzats",
+    "stat3Value": "30%",
+    "stat3Label": "Estalvi mitjà"
+  },
+  "services": {
+    "sectionLabel": "Les nostres competències",
+    "title": "Una missió de Referent que",
+    "titleHighlight": "articula les nostres competències",
+    "subtitle": "Aquesta missió de Referent engloba i articula les nostres competències que també podeu sol·licitar de manera independent.",
+    "whatWeDo": "El que fem:",
+    "example": "💡 Exemple concret:",
+    "service1": {
+      "title": "Estratègia, Estudis i Diagnòstics",
+      "description": "Construir una estratègia energètica adaptada al vostre patrimoni per disposar d'una visió clara i objectiva.",
+      "details": "Inventari complet (edificis, enllumenat públic, parc de vehicles), anàlisi dels consums i priorització de les accions.",
+      "example": "En lloc de renovar a l'atzar, identifiquem l'edifici més energívor del vostre parc per concentrar les vostres inversions allà on el retorn serà més ràpid."
+    },
+    "service2": {
+      "title": "Pilotatge i Seguiment dels Consums",
+      "description": "Pilotar les accions engegades i seguir l'evolució real dels vostres consums.",
+      "details": "Implementació d'indicadors senzills per a responsables i tècnics, seguiment regular i configuració d'eines de pilotatge duradores.",
+      "example": "L'anàlisi mensual dels vostres consums permet detectar immediatament una desviació lligada a un mal ajust de calefacció, evitant així un sobrecost innecessari a final d'any."
+    },
+    "service3": {
+      "title": "Assistència a la Direcció d'Obra (AMO)",
+      "description": "Accions concretes cap a la sobrietat, de l'estratègia a l'execució.",
+      "details": "Acompanyament en renovacions, estudis HVAC (calefacció, ventilació, climatització), solucions low-tech i optimització dels usos.",
+      "example": "En substituir una caldera, us ajudem a validar el sistema més adaptat a les vostres necessitats, garantint que les obres lliurades corresponguin als vostres objectius d'estalvi."
+    },
+    "service4": {
+      "title": "Seguretat Reglamentària",
+      "description": "Assegurar la vostra estructura davant les obligacions legals creixents.",
+      "details": "Identificació del patrimoni subjecte i compliment dels decrets (Eco-energia terciari/OPERAT, BACS, Directiva d'Eficiència Energètica).",
+      "example": "Ens encarreguem de la càrrega anual de les vostres dades a la plataforma OPERAT per al Decret Terciari, evitant-vos sancions i risc d'imatge pel \"Name & Shame\"."
+    },
+    "service5": {
+      "title": "Formació i Sensibilització",
+      "description": "Formeu el vostre personal en gestió energètica per ser autònom.",
+      "details": "Sessions de sensibilització sobre gestió energètica i transició ecològica adaptades al vostre context.",
+      "example": "Una formació in situ per ensenyar als vostres serveis tècnics com optimitzar la configuració de la Gestió Tècnica de l'Edifici (GTE) sense sacrificar el confort dels usuaris."
+    },
+    "custom": {
+      "title": "Necessiteu una altra cosa?",
+      "description": "No trobeu el que busqueu? Contacteu-nos per a solucions personalitzades i adaptades a les vostres necessitats.",
+      "cta": "Contacteu-nos"
+    }
+  },
+  "whyReferent": {
+    "sectionLabel": "Per què aquest format?",
+    "title": "Per què triar el format",
+    "titleHighlight": "\"Referent Delegat\"",
+    "paragraph1": "Cadascuna d'aquestes missions es pot realitzar puntualment. Tanmateix, en triar RESOL Énergies com a Referent Energètic Delegat, us beneficieu d'una <strong>coherència global</strong>: els vostres diagnòstics alimenten el vostre seguiment, les vostres obres respecten la normativa i el vostre personal es forma contínuament.",
+    "paragraph2": "És la garantia d'una transició energètica que avança cada mes, <strong>sense pesar en la vostra massa salarial</strong>.",
+    "benefit1Title": "Experiència a mida",
+    "benefit1Desc": "Us beneficieu d'un expert dedicat que coneix el vostre patrimoni, els vostres equips i les vostres restriccions al detall.",
+    "benefit2Title": "Continuïtat",
+    "benefit2Desc": "S'han acabat els expedients estancats. La vostra transició energètica avança cada mes de manera fluida, sense interrupcions, fins i tot quan els vostres equips estan ocupats en un altre lloc.",
+    "benefit3Title": "Pressupost controlat",
+    "benefit3Desc": "Una despesa de consultoria repartida al llarg de l'any per a una millor visibilitat financera, acompanyada d'assistència prioritària per a totes les vostres urgències.",
+    "ctaTitle": "Feu de l'energia una palanca de rendiment, no una limitació.",
+    "ctaText": "En un context de volatilitat de preus i enduriment regulatori, l'energia ja no ha de ser una fatalitat pressupostària. En triar RESOL Énergies com a Referent Energètic Delegat, transformeu una gestió complexa en una trajectòria controlada. No ens limitem a lliurar-vos informes: actuem al vostre costat per optimitzar els vostres consums, captar les ajudes disponibles (subvencions, CEE) i assegurar el vostre futur energètic.",
+    "ctaButton": "Trobem-nos"
+  },
+  "clients": {
+    "sectionLabel": "Els nostres clients",
+    "title": "Una experiència adaptada a",
+    "titleHighlight": "cada perfil",
+    "subtitle": "Tant si sou una entitat pública, una empresa o un particular, adaptem el nostre enfocament als vostres reptes específics.",
+    "collectivites": {
+      "title": "Entitats públiques",
+      "description": "Ajuntaments, mancomunitats, diputacions i comunitats autònomes que volen optimitzar el seu patrimoni públic i reduir les seves despeses energètiques.",
+      "features": ["Estratègia energètica del patrimoni", "Pla plurianual d'inversió", "Acompanyament en finançaments"]
+    },
+    "entreprises": {
+      "title": "Empreses",
+      "description": "PIMEs i grans grups que busquen controlar els seus costos energètics i millorar el seu rendiment ambiental.",
+      "features": ["Pilotatge dels consums", "Conformitat reglamentària", "Optimització dels usos"]
+    },
+    "particuliers": {
+      "title": "Particulars",
+      "description": "Propietaris i comunitats de propietaris que desitgen millorar el confort del seu habitatge reduint les seves factures.",
+      "features": ["Assessorament en renovació energètica", "Independència energètica", "Optimització del confort"]
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contacte",
+    "title": "Preparat per reprendre el control dels",
+    "titleHighlight": "vostres consums?",
+    "subtitle": "Trobem-nos per definir el volum d'acompanyament adaptat a les vostres necessitats i construir junts una estratègia amb sentit.",
+    "emailLabel": "Email",
+    "phoneLabel": "Telèfon",
+    "addressLabel": "Adreça",
+    "formTitle": "Demaneu un pressupost gratuït",
+    "firstName": "Nom",
+    "firstNamePlaceholder": "El vostre nom",
+    "lastName": "Cognom",
+    "lastNamePlaceholder": "El vostre cognom",
+    "email": "Email",
+    "emailPlaceholder": "el-vostre@email.cat",
+    "type": "Vós sou",
+    "typeDefault": "Seleccioneu una opció",
+    "typeCollectivite": "Una entitat pública",
+    "typeEntreprise": "Una empresa",
+    "typeParticulier": "Un particular",
+    "message": "El vostre projecte",
+    "messagePlaceholder": "Descriviu breument el vostre projecte o les vostres necessitats...",
+    "submit": "Enviar la meva sol·licitud"
+  },
+  "footer": {
+    "description": "El vostre soci per a una transició energètica reeixida. Consultoria i acompanyament per a entitats públiques, empreses i particulars.",
+    "servicesTitle": "Serveis",
+    "service1": "Referent Energètic Delegat",
+    "service2": "Estudis i Diagnòstics",
+    "service3": "Pilotatge i Seguiment",
+    "contactTitle": "Contacte",
+    "rights": "Tots els drets reservats.",
+    "planet": "Compromesos amb el planeta"
+  }
+}

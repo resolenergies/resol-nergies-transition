@@ -1,0 +1,138 @@
+{
+  "header": {
+    "services": "Our expertise",
+    "approach": "Why choose us",
+    "clients": "Our clients",
+    "contact": "Contact",
+    "cta": "Request a quote"
+  },
+  "hero": {
+    "badge": "Your Delegated Energy Officer",
+    "title": "RESOL Énergies:",
+    "titleHighlight": "Your Delegated Energy Officer",
+    "subtitle": "\"Because energy transition doesn't stop at an audit report, we drive your strategy from the inside.\"",
+    "description": "Through a regular time package, we become your single point of contact to coordinate all your energy challenges.",
+    "ctaPrimary": "Discover our expertise",
+    "ctaSecondary": "Meet us",
+    "stat1Value": "14+",
+    "stat1Label": "Local authorities supported",
+    "stat2Value": "500+",
+    "stat2Label": "Projects completed",
+    "stat3Value": "30%",
+    "stat3Label": "Average savings"
+  },
+  "services": {
+    "sectionLabel": "Our expertise",
+    "title": "A referent mission that",
+    "titleHighlight": "brings our expertise together",
+    "subtitle": "This referent mission encompasses and coordinates our areas of expertise, which you can also request independently.",
+    "whatWeDo": "What we do:",
+    "example": "💡 Concrete example:",
+    "service1": {
+      "title": "Strategy, Studies & Diagnostics",
+      "description": "Build an energy strategy tailored to your assets for a clear and objective vision.",
+      "details": "Complete inventory (buildings, street lighting, vehicle fleet), consumption analysis and action prioritisation.",
+      "example": "Rather than renovating at random, we identify the most energy-intensive building in your portfolio to focus your investments where returns are fastest."
+    },
+    "service2": {
+      "title": "Monitoring & Consumption Tracking",
+      "description": "Drive ongoing actions and track the real evolution of your consumption.",
+      "details": "Setting up simple indicators for elected officials and technicians, regular monitoring and configuration of sustainable management tools.",
+      "example": "Monthly consumption analysis detects an immediate drift due to a heating misconfiguration, avoiding unnecessary extra costs at year end."
+    },
+    "service3": {
+      "title": "Project Owner Assistance (AMO)",
+      "description": "Concrete actions towards energy sobriety, from strategy to implementation.",
+      "details": "Support during renovations, HVAC studies (heating, ventilation, air conditioning), low-tech solutions and usage optimisation.",
+      "example": "When replacing a boiler, we help you validate the system best suited to your needs, ensuring the delivered works match your savings objectives."
+    },
+    "service4": {
+      "title": "Regulatory Compliance",
+      "description": "Secure your organisation against growing legal obligations.",
+      "details": "Identification of subject assets and compliance with decrees (Eco-energy tertiary/OPERAT, BACS, Energy Efficiency Directive).",
+      "example": "We handle the annual data entry on the OPERAT platform for the Tertiary Decree, sparing you sanctions and reputational risk from \"Name & Shame\"."
+    },
+    "service5": {
+      "title": "Training & Awareness",
+      "description": "Train your staff in energy management to become autonomous.",
+      "details": "Awareness sessions on energy management and ecological transition tailored to your context.",
+      "example": "On-site training to teach your technical teams how to optimise Building Management System (BMS) settings without sacrificing occupant comfort."
+    },
+    "custom": {
+      "title": "Need something else?",
+      "description": "Can't find what you need? Contact us for personalised solutions tailored to your requirements.",
+      "cta": "Contact us"
+    }
+  },
+  "whyReferent": {
+    "sectionLabel": "Why this format?",
+    "title": "Why choose the",
+    "titleHighlight": "\"Delegated Referent\" format",
+    "paragraph1": "Each of these missions can be carried out on an ad-hoc basis. However, by choosing RESOL Énergies as your Delegated Energy Referent, you benefit from <strong>overall coherence</strong>: your diagnostics feed your monitoring, your works comply with regulations and your staff are continuously trained.",
+    "paragraph2": "It's the assurance of an energy transition that progresses every month, <strong>without burdening your payroll</strong>.",
+    "benefit1Title": "Tailored expertise",
+    "benefit1Desc": "You benefit from a dedicated expert who knows your assets, your equipment and your constraints inside out.",
+    "benefit2Title": "Continuity",
+    "benefit2Desc": "No more stagnating files. Your energy transition progresses smoothly every month, without interruption, even when your teams are busy elsewhere.",
+    "benefit3Title": "Controlled budget",
+    "benefit3Desc": "Consulting costs spread over the year for better financial visibility, along with priority assistance for all your urgent needs.",
+    "ctaTitle": "Make energy a performance lever, not a constraint.",
+    "ctaText": "In a context of price volatility and tightening regulations, energy should no longer be a budgetary inevitability. By choosing RESOL Énergies as your Delegated Energy Referent, you transform complex management into a controlled trajectory. We don't just deliver reports: we work alongside you to optimise your consumption, capture available funding (grants, CEE) and secure your energy future.",
+    "ctaButton": "Let's meet"
+  },
+  "clients": {
+    "sectionLabel": "Our clients",
+    "title": "Expertise adapted to",
+    "titleHighlight": "every profile",
+    "subtitle": "Whether you are a local authority, a company or an individual, we tailor our approach to your specific challenges.",
+    "collectivites": {
+      "title": "Local Authorities",
+      "description": "Municipalities, inter-municipal bodies, departments and regions looking to optimise their public assets and reduce energy costs.",
+      "features": ["Asset energy strategy", "Multi-year investment plan", "Funding support"]
+    },
+    "entreprises": {
+      "title": "Businesses",
+      "description": "SMEs, mid-caps and large groups seeking to control their energy costs and improve their environmental performance.",
+      "features": ["Consumption management", "Regulatory compliance", "Usage optimisation"]
+    },
+    "particuliers": {
+      "title": "Individuals",
+      "description": "Homeowners and co-owners wishing to improve the comfort of their homes while reducing their bills.",
+      "features": ["Energy renovation advice", "Energy independence", "Comfort optimisation"]
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Ready to take back control of",
+    "titleHighlight": "your energy consumption?",
+    "subtitle": "Let's meet to define the level of support suited to your needs and build a strategy that makes sense together.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "formTitle": "Request a free quote",
+    "firstName": "First name",
+    "firstNamePlaceholder": "Your first name",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Your last name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "type": "You are",
+    "typeDefault": "Select an option",
+    "typeCollectivite": "A local authority",
+    "typeEntreprise": "A business",
+    "typeParticulier": "An individual",
+    "message": "Your project",
+    "messagePlaceholder": "Briefly describe your project or needs...",
+    "submit": "Send my request"
+  },
+  "footer": {
+    "description": "Your partner for a successful energy transition. Consulting and support for local authorities, businesses and individuals.",
+    "servicesTitle": "Services",
+    "service1": "Delegated Energy Referent",
+    "service2": "Studies & Diagnostics",
+    "service3": "Monitoring & Tracking",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "planet": "Committed to the planet"
+  }
+}

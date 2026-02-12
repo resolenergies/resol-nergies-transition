@@ -1,0 +1,138 @@
+{
+  "header": {
+    "services": "Nos expertises",
+    "approach": "Pourquoi nous choisir",
+    "clients": "Nos clients",
+    "contact": "Contact",
+    "cta": "Demander un devis"
+  },
+  "hero": {
+    "badge": "Votre Référent Énergie Délégué",
+    "title": "RESOL Énergies :",
+    "titleHighlight": "Votre Référent Énergie Délégué",
+    "subtitle": "\"Parce que la transition énergétique ne s'arrête pas à un rapport d'audit, nous pilotons votre stratégie de l'intérieur.\"",
+    "description": "À travers un forfait de temps régulier, nous devenons votre interlocuteur unique pour coordonner l'ensemble de vos enjeux énergétiques.",
+    "ctaPrimary": "Découvrir nos expertises",
+    "ctaSecondary": "Nous rencontrer",
+    "stat1Value": "14+",
+    "stat1Label": "Collectivités accompagnées",
+    "stat2Value": "500+",
+    "stat2Label": "Projets réalisés",
+    "stat3Value": "30%",
+    "stat3Label": "Économies moyennes"
+  },
+  "services": {
+    "sectionLabel": "Nos expertises",
+    "title": "Une mission de Référent qui",
+    "titleHighlight": "articule nos expertises",
+    "subtitle": "Cette mission de Référent englobe et articule nos expertises que vous pouvez également solliciter de manière indépendante.",
+    "whatWeDo": "Ce que nous faisons :",
+    "example": "💡 Exemple concret :",
+    "service1": {
+      "title": "Stratégie, Études & Diagnostics",
+      "description": "Construire une stratégie énergétique adaptée à votre patrimoine pour disposer d'une vision claire et objective.",
+      "details": "Inventaire complet (bâtiments, éclairage public, parc de véhicules), analyse des consommations et hiérarchisation des actions.",
+      "example": "Plutôt que de rénover au hasard, nous identifions le bâtiment le plus énergivore de votre parc pour concentrer vos investissements là où le gain sera le plus rapide."
+    },
+    "service2": {
+      "title": "Pilotage & Suivi des Consommations",
+      "description": "Piloter les actions engagées et suivre l'évolution réelle de vos consommations.",
+      "details": "Mise en place d'indicateurs simples pour les élus et techniciens, suivi régulier et paramétrage d'outils de pilotage durables.",
+      "example": "L'analyse mensuelle de vos consommations permet de détecter immédiatement une dérive liée à un mauvais réglage de chauffage, évitant ainsi un surcoût inutile en fin d'année."
+    },
+    "service3": {
+      "title": "Assistance à la Maîtrise d'Ouvrage (AMO)",
+      "description": "Des actions concrètes vers la sobriété, de la stratégie à la mise en œuvre.",
+      "details": "Accompagnement lors de rénovations, études CVC (chauffage, ventilation, climatisation), solutions low-tech et optimisation des usages.",
+      "example": "Lors du remplacement d'une chaudière, nous vous aidons à valider le système mieux adapté à vos besoins, garantissant que les travaux livrés correspondent à vos objectifs d'économie."
+    },
+    "service4": {
+      "title": "Sécurisation Réglementaire",
+      "description": "Sécuriser votre structure face aux obligations légales croissantes.",
+      "details": "Identification du patrimoine assujetti et mise en conformité avec les décrets (Eco-énergie tertiaire/OPERAT, BACS, Directive Efficacité Énergétique).",
+      "example": "Nous prenons en charge la saisie annuelle de vos données sur la plateforme OPERAT pour le Décret Tertiaire, vous évitant ainsi les sanctions et le risque d'image lié au \"Name & Shame\"."
+    },
+    "service5": {
+      "title": "Formation & Sensibilisation",
+      "description": "Formez vos agents au pilotage énergétique pour devenir autonome.",
+      "details": "Sessions de sensibilisation à la maîtrise de l'énergie et à la transition écologique adaptées à votre contexte.",
+      "example": "Une formation sur site pour apprendre à vos services techniques comment optimiser le paramétrage de la Gestion Technique du Bâtiment (GTB) sans sacrifier le confort des usagers."
+    },
+    "custom": {
+      "title": "Besoin d'autre chose ?",
+      "description": "Vous ne trouvez pas ce dont vous avez besoin ? Contactez-nous pour des solutions personnalisées et adaptées à vos besoins.",
+      "cta": "Nous contacter"
+    }
+  },
+  "whyReferent": {
+    "sectionLabel": "Pourquoi ce format ?",
+    "title": "Pourquoi choisir le format",
+    "titleHighlight": "\"Référent Délégué\"",
+    "paragraph1": "Chacune de ces missions peut être réalisée ponctuellement. Cependant, en choisissant RESOL Énergies comme Référent Énergie Délégué, vous bénéficiez d'une <strong>cohérence globale</strong> : vos diagnostics alimentent votre suivi, vos travaux respectent la réglementation et vos agents sont formés en continu.",
+    "paragraph2": "C'est l'assurance d'une transition énergétique qui avance chaque mois, <strong>sans peser sur votre masse salariale</strong>.",
+    "benefit1Title": "Expertise sur mesure",
+    "benefit1Desc": "Vous profitez d'un expert dédié qui connaît votre patrimoine, vos équipements et vos contraintes sur le bout des doigts.",
+    "benefit2Title": "Continuité",
+    "benefit2Desc": "Fini les dossiers qui stagnent. Votre transition énergétique avance chaque mois de manière fluide, sans interruption, même lorsque vos équipes sont sollicitées ailleurs.",
+    "benefit3Title": "Budget maîtrisé",
+    "benefit3Desc": "Une dépense de conseil lissée sur l'année pour une meilleure visibilité financière, accompagnée d'une assistance prioritaire pour toutes vos urgences.",
+    "ctaTitle": "Faites de l'énergie un levier de performance, pas une contrainte.",
+    "ctaText": "Dans un contexte de volatilité des prix et de durcissement réglementaire, l'énergie ne doit plus être une fatalité budgétaire. En choisissant RESOL Énergies comme votre Référent Énergie Délégué, vous transformez une gestion complexe en une trajectoire maîtrisée. Nous ne nous contentons pas de vous remettre des rapports : nous agissons à vos côtés pour optimiser vos consommations, capter les aides disponibles (subventions, CEE) et sécuriser votre avenir énergétique.",
+    "ctaButton": "Rencontrons-nous"
+  },
+  "clients": {
+    "sectionLabel": "Nos clients",
+    "title": "Une expertise adaptée à",
+    "titleHighlight": "chaque profil",
+    "subtitle": "Que vous soyez une collectivité, une entreprise ou un particulier, nous adaptons notre approche à vos enjeux spécifiques.",
+    "collectivites": {
+      "title": "Collectivités",
+      "description": "Communes, intercommunalités, départements et régions souhaitant optimiser leur patrimoine public et réduire leurs dépenses énergétiques.",
+      "features": ["Stratégie énergétique du patrimoine", "Plan pluriannuel d'investissement", "Accompagnement aux financements"]
+    },
+    "entreprises": {
+      "title": "Entreprises",
+      "description": "PME, ETI et grands groupes cherchant à maîtriser leurs coûts énergétiques et améliorer leur performance environnementale.",
+      "features": ["Pilotage des consommations", "Conformité réglementaire", "Optimisation des usages"]
+    },
+    "particuliers": {
+      "title": "Particuliers",
+      "description": "Propriétaires et copropriétés désireux d'améliorer le confort de leur habitat tout en réduisant leurs factures.",
+      "features": ["Conseil en rénovation énergétique", "Indépendance énergétique", "Optimisation du confort"]
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Prêt à reprendre le contrôle de",
+    "titleHighlight": "vos consommations ?",
+    "subtitle": "Rencontrons-nous pour définir le volume d'accompagnement adapté à vos besoins et bâtir ensemble une stratégie qui a du sens.",
+    "emailLabel": "Email",
+    "phoneLabel": "Téléphone",
+    "addressLabel": "Adresse",
+    "formTitle": "Demandez un devis gratuit",
+    "firstName": "Prénom",
+    "firstNamePlaceholder": "Votre prénom",
+    "lastName": "Nom",
+    "lastNamePlaceholder": "Votre nom",
+    "email": "Email",
+    "emailPlaceholder": "votre@email.fr",
+    "type": "Vous êtes",
+    "typeDefault": "Sélectionnez une option",
+    "typeCollectivite": "Une collectivité",
+    "typeEntreprise": "Une entreprise",
+    "typeParticulier": "Un particulier",
+    "message": "Votre projet",
+    "messagePlaceholder": "Décrivez brièvement votre projet ou vos besoins...",
+    "submit": "Envoyer ma demande"
+  },
+  "footer": {
+    "description": "Votre partenaire pour une transition énergétique réussie. Conseil et accompagnement pour collectivités, entreprises et particuliers.",
+    "servicesTitle": "Services",
+    "service1": "Référent Énergie Délégué",
+    "service2": "Études & Diagnostics",
+    "service3": "Pilotage & Suivi",
+    "contactTitle": "Contact",
+    "rights": "Tous droits réservés.",
+    "planet": "Engagés pour la planète"
+  }
+}
