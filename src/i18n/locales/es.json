@@ -7,9 +7,9 @@
     "cta": "Solicitar presupuesto"
   },
   "hero": {
-    "badge": "Su Referente Energético Delegado",
+    "badge": "Su Referente Energético",
     "title": "RESOL Énergies:",
-    "titleHighlight": "Su Referente Energético Delegado",
+    "titleHighlight": "Su Referente Energético",
     "subtitle": "\"Porque la transición energética no se detiene en un informe de auditoría, pilotamos su estrategia desde dentro.\"",
     "description": "A través de un paquete de tiempo regular, nos convertimos en su interlocutor único para coordinar todos sus retos energéticos.",
     "ctaPrimary": "Descubrir nuestras competencias",
@@ -67,8 +67,8 @@
   "whyReferent": {
     "sectionLabel": "¿Por qué este formato?",
     "title": "¿Por qué elegir el formato",
-    "titleHighlight": "\"Referente Delegado\"",
-    "paragraph1": "Cada una de estas misiones puede realizarse puntualmente. Sin embargo, al elegir RESOL Énergies como su Referente Energético Delegado, usted se beneficia de una <strong>coherencia global</strong>: sus diagnósticos alimentan su seguimiento, sus obras respetan la normativa y su personal se forma continuamente.",
+    "titleHighlight": "\"Referente Energético\"",
+    "paragraph1": "Cada una de estas misiones puede realizarse puntualmente. Sin embargo, al elegir RESOL Énergies como su Referente Energético, usted se beneficia de una <strong>coherencia global</strong>: sus diagnósticos alimentan su seguimiento, sus obras respetan la normativa y su personal se forma continuamente.",
     "paragraph2": "Es la garantía de una transición energética que avanza cada mes, <strong>sin pesar en su masa salarial</strong>.",
     "benefit1Title": "Experiencia a medida",
     "benefit1Desc": "Se beneficia de un experto dedicado que conoce su patrimonio, sus equipos y sus restricciones al detalle.",
@@ -77,7 +77,7 @@
     "benefit3Title": "Presupuesto controlado",
     "benefit3Desc": "Un gasto de consultoría repartido a lo largo del año para una mejor visibilidad financiera, acompañado de asistencia prioritaria para todas sus urgencias.",
     "ctaTitle": "Haga de la energía una palanca de rendimiento, no una limitación.",
-    "ctaText": "En un contexto de volatilidad de precios y endurecimiento regulatorio, la energía ya no debe ser una fatalidad presupuestaria. Al elegir RESOL Énergies como su Referente Energético Delegado, transforma una gestión compleja en una trayectoria controlada. No nos limitamos a entregarle informes: actuamos a su lado para optimizar sus consumos, captar las ayudas disponibles (subvenciones, CEE) y asegurar su futuro energético.",
+    "ctaText": "En un contexto de volatilidad de precios y endurecimiento regulatorio, la energía ya no debe ser una fatalidad presupuestaria. Al elegir RESOL Énergies como su Referente Energético, transforma una gestión compleja en una trayectoria controlada. No nos limitamos a entregarle informes: actuamos a su lado para optimizar sus consumos, captar las ayudas disponibles (subvenciones, CEE) y asegurar su futuro energético.",
     "ctaButton": "Encontrémonos"
   },
   "clients": {
@@ -128,7 +128,7 @@
   "footer": {
     "description": "Su socio para una transición energética exitosa. Consultoría y acompañamiento para entidades públicas, empresas y particulares.",
     "servicesTitle": "Servicios",
-    "service1": "Referente Energético Delegado",
+    "service1": "Referente Energético",
     "service2": "Estudios y Diagnósticos",
     "service3": "Pilotaje y Seguimiento",
     "contactTitle": "Contacto",
