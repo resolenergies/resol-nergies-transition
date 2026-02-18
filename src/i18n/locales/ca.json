@@ -7,9 +7,9 @@
     "cta": "Demanar pressupost"
   },
   "hero": {
-    "badge": "El vostre Referent Energètic Delegat",
+    "badge": "El vostre Referent Energètic",
     "title": "RESOL Énergies:",
-    "titleHighlight": "El vostre Referent Energètic Delegat",
+    "titleHighlight": "El vostre Referent Energètic",
     "subtitle": "\"Perquè la transició energètica no s'atura en un informe d'auditoria, pilotem la vostra estratègia des de dins.\"",
     "description": "A través d'un forfet de temps regular, ens convertim en el vostre interlocutor únic per coordinar tots els vostres reptes energètics.",
     "ctaPrimary": "Descobrir les nostres competències",
@@ -67,8 +67,8 @@
   "whyReferent": {
     "sectionLabel": "Per què aquest format?",
     "title": "Per què triar el format",
-    "titleHighlight": "\"Referent Delegat\"",
-    "paragraph1": "Cadascuna d'aquestes missions es pot realitzar puntualment. Tanmateix, en triar RESOL Énergies com a Referent Energètic Delegat, us beneficieu d'una <strong>coherència global</strong>: els vostres diagnòstics alimenten el vostre seguiment, les vostres obres respecten la normativa i el vostre personal es forma contínuament.",
+    "titleHighlight": "\"Referent Energètic\"",
+    "paragraph1": "Cadascuna d'aquestes missions es pot realitzar puntualment. Tanmateix, en triar RESOL Énergies com a Referent Energètic, us beneficieu d'una <strong>coherència global</strong>: els vostres diagnòstics alimenten el vostre seguiment, les vostres obres respecten la normativa i el vostre personal es forma contínuament.",
     "paragraph2": "És la garantia d'una transició energètica que avança cada mes, <strong>sense pesar en la vostra massa salarial</strong>.",
     "benefit1Title": "Experiència a mida",
     "benefit1Desc": "Us beneficieu d'un expert dedicat que coneix el vostre patrimoni, els vostres equips i les vostres restriccions al detall.",
@@ -77,7 +77,7 @@
     "benefit3Title": "Pressupost controlat",
     "benefit3Desc": "Una despesa de consultoria repartida al llarg de l'any per a una millor visibilitat financera, acompanyada d'assistència prioritària per a totes les vostres urgències.",
     "ctaTitle": "Feu de l'energia una palanca de rendiment, no una limitació.",
-    "ctaText": "En un context de volatilitat de preus i enduriment regulatori, l'energia ja no ha de ser una fatalitat pressupostària. En triar RESOL Énergies com a Referent Energètic Delegat, transformeu una gestió complexa en una trajectòria controlada. No ens limitem a lliurar-vos informes: actuem al vostre costat per optimitzar els vostres consums, captar les ajudes disponibles (subvencions, CEE) i assegurar el vostre futur energètic.",
+    "ctaText": "En un context de volatilitat de preus i enduriment regulatori, l'energia ja no ha de ser una fatalitat pressupostària. En triar RESOL Énergies com a Referent Energètic, transformeu una gestió complexa en una trajectòria controlada. No ens limitem a lliurar-vos informes: actuem al vostre costat per optimitzar els vostres consums, captar les ajudes disponibles (subvencions, CEE) i assegurar el vostre futur energètic.",
     "ctaButton": "Trobem-nos"
   },
   "clients": {
@@ -128,7 +128,7 @@
   "footer": {
     "description": "El vostre soci per a una transició energètica reeixida. Consultoria i acompanyament per a entitats públiques, empreses i particulars.",
     "servicesTitle": "Serveis",
-    "service1": "Referent Energètic Delegat",
+    "service1": "Referent Energètic",
     "service2": "Estudis i Diagnòstics",
     "service3": "Pilotatge i Seguiment",
     "contactTitle": "Contacte",
