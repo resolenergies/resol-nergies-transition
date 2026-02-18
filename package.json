@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://resolenergies.github.io/resol-nergies-transition",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
