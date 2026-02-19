@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Leaf } from "lucide-react";
+import logoResol from "@/assets/logo-resol-energies.png";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -10,13 +11,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-10">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">R</span>
-              </div>
-              <span className="font-display font-semibold text-xl text-primary-foreground">
-                Resol Énergies
-              </span>
+            <div className="mb-4">
+              <img src={logoResol} alt="RESOL Energies" className="h-12 w-auto brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/60 max-w-sm leading-relaxed">
               {t("footer.description")}
@@ -63,7 +59,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {currentYear} Resol Énergies. {t("footer.rights")}
+            © {currentYear} RESOL Energies. {t("footer.rights")}
           </p>
           <div className="flex items-center gap-2 text-primary-foreground/50 text-sm">
             <Leaf className="w-4 h-4 text-accent" />
