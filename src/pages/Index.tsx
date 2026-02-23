@@ -29,38 +29,10 @@ const Index = () => {
   }, []);
 
   const handleAddContact = () => {
-    // Contenu vCard avec type MIME text/vcard pour déclencher "Ajouter aux contacts"
-    const vcfContent = `BEGIN:VCARD
-VERSION:3.0
-FN:Marc Ribera Fuentes
-N:Ribera Fuentes;Marc;;;
-ORG:Résol Énergies;
-EMAIL;TYPE=INTERNET:marc@resolenergies.com
-TEL;TYPE=CELL:+33 6 47 43 82 58
-ADR;TYPE=WORK:;;Perpignan;;;France
-URL:https://www.resolenergies.com
-PHOTO;VALUE=URI:https://www.resolenergies.com/images/logo-resol-energies.png
-END:VCARD`;
-
-    const blob = new Blob([vcfContent], { type: "text/vcard" });
-    const blobUrl = URL.createObjectURL(blob);
-
-    const link = document.createElement("a");
-    link.href = blobUrl;
-    link.style.display = "none";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-
-    // On ne révoque pas immédiatement l'URL pour laisser le temps au navigateur d'ouvrir la fiche
-    window.setTimeout(() => {
-      URL.revokeObjectURL(blobUrl);
-    }, 10000);
-
-    // Après quelques secondes, on revient à la page d'accueil
-    window.setTimeout(() => {
-      window.location.href = window.location.origin + "/";
-    }, 8000);
+    // Redirige simplement vers le fichier .vcf statique.
+    // De nombreux téléphones reconnaissent alors le fichier comme fiche contact.
+    const vcfUrl = `${import.meta.env.BASE_URL}contact.vcf`;
+    window.location.href = vcfUrl;
   };
 
   return (
