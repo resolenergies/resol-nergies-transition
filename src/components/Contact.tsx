@@ -1,9 +1,25 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 
 const Contact = () => {
   const { t } = useTranslation();
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [type, setType] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = encodeURIComponent(`Demande de devis - ${firstName} ${lastName}`);
+    const typeLabel = type ? t(`contact.type${type.charAt(0).toUpperCase() + type.slice(1)}`) : "";
+    const body = encodeURIComponent(
+      `Nom : ${firstName} ${lastName}\nEmail : ${email}\nType : ${typeLabel}\n\nMessage :\n${message}`
+    );
+    window.location.href = `mailto:marc@resolenergies.com?subject=${subject}&body=${body}`;
+  };
 
   return (
     <section id="contact" className="py-20 md:py-28 bg-background">
@@ -64,7 +80,7 @@ const Contact = () => {
             <h3 className="font-display text-xl font-semibold text-foreground mb-6">
               {t("contact.formTitle")}
             </h3>
-            <form className="space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-foreground mb-2">
@@ -73,6 +89,9 @@ const Contact = () => {
                   <input
                     type="text"
                     id="firstName"
+                    required
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                     placeholder={t("contact.firstNamePlaceholder")}
                   />
@@ -84,6 +103,9 @@ const Contact = () => {
                   <input
                     type="text"
                     id="lastName"
+                    required
+                    value={lastName}
+                    onChange={(e) => setLastName(e.target.value)}
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                     placeholder={t("contact.lastNamePlaceholder")}
                   />
@@ -96,6 +118,9 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                   placeholder={t("contact.emailPlaceholder")}
                 />
@@ -106,6 +131,8 @@ const Contact = () => {
                 </label>
                 <select
                   id="type"
+                  value={type}
+                  onChange={(e) => setType(e.target.value)}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                 >
                   <option value="">{t("contact.typeDefault")}</option>
@@ -121,11 +148,14 @@ const Contact = () => {
                 <textarea
                   id="message"
                   rows={4}
+                  required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
                   placeholder={t("contact.messagePlaceholder")}
                 />
               </div>
-              <Button variant="hero" size="lg" className="w-full">
+              <Button type="submit" variant="hero" size="lg" className="w-full">
                 {t("contact.submit")}
                 <ArrowRight className="w-5 h-5" />
               </Button>
