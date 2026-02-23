@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -14,20 +14,22 @@ const isMobileDevice = () => {
 };
 
 const Index = () => {
+  const [showContactPrompt, setShowContactPrompt] = useState(false);
+
   useEffect(() => {
     if (typeof window === "undefined") return;
 
     // Mode spécial : vCard quand on arrive sur /#/contact
-    if (window.location.hash !== "#/contact") return;
-
-    if (!isMobileDevice()) {
+    if (window.location.hash === "#/contact" && isMobileDevice()) {
+      setShowContactPrompt(true);
+    } else if (window.location.hash === "#/contact") {
       // Sur desktop, on enlève juste le hash et on reste sur l'accueil
       window.location.hash = "";
-      return;
     }
+  }, []);
 
+  const handleAddContact = () => {
     // Contenu vCard avec type MIME text/vcard pour déclencher "Ajouter aux contacts"
-    // au lieu du téléchargement de fichier
     const vcfContent = `BEGIN:VCARD
 VERSION:3.0
 FN:Marc Ribera Fuentes
@@ -49,22 +51,45 @@ END:VCARD`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    URL.revokeObjectURL(blobUrl);
+
+    // On ne révoque pas immédiatement l'URL pour laisser le temps au navigateur d'ouvrir la fiche
+    window.setTimeout(() => {
+      URL.revokeObjectURL(blobUrl);
+    }, 10000);
 
     // Après quelques secondes, on revient à la page d'accueil
-    const timeoutId = window.setTimeout(() => {
+    window.setTimeout(() => {
       window.location.href = window.location.origin + "/";
-    }, 4000);
-
-    return () => {
-      window.clearTimeout(timeoutId);
-    };
-  }, []);
+    }, 8000);
+  };
 
   return (
     <div className="min-h-screen">
       <Header />
       <main>
+        {showContactPrompt && (
+          <section className="bg-background py-16">
+            <div className="container mx-auto px-4 md:px-6">
+              <div className="max-w-xl mx-auto text-center space-y-6">
+                <h1 className="text-2xl font-semibold">
+                  Ajouter Résol Énergies à vos contacts
+                </h1>
+                <p className="text-muted-foreground">
+                  Touchez le bouton ci-dessous pour ajouter{" "}
+                  <span className="font-semibold">Marc Ribera Fuentes</span> à
+                  votre carnet d&apos;adresses.
+                </p>
+                <button
+                  type="button"
+                  onClick={handleAddContact}
+                  className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-base font-medium text-primary-foreground shadow hover:bg-primary/90 transition-colors"
+                >
+                  Ajouter le contact à mon téléphone
+                </button>
+              </div>
+            </div>
+          </section>
+        )}
         <Hero />
         <Services />
         <WhyReferent />
