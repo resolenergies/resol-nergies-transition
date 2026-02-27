@@ -19,7 +19,7 @@
     <circle cx="174" cy="97" r="7" fill="#28c840"/>
     <rect x="220" y="84" width="700" height="26" rx="13" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.10"/>
     <text x="240" y="102" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
-      Article presse (simulation)  sobriété énergétique · Laroque-des-Albères
+      Article presse (simulation) - sobriété énergétique · Laroque-des-Albères
     </text>
 
     <!-- Article layout -->
@@ -31,7 +31,7 @@
       Sobriété énergétique : un diagnostic pour la mairie
     </text>
     <text x="165" y="258" fill="#c7d2e8" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
-      Laroque-des-Albères · 2025 · Capture simulée à des fins dillustration
+      Laroque-des-Albères · 2025 · Capture simulée à des fins d'illustration
     </text>
 
     <!-- Hero image placeholder -->
@@ -41,7 +41,7 @@
     <circle cx="620" cy="350" r="10" fill="#f59e0b" opacity="0.8"/>
     <circle cx="900" cy="310" r="10" fill="#22c55e" opacity="0.8"/>
     <text x="190" y="315" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="12" opacity="0.85">
-      Visuel dillustration (simulation)
+      Visuel d'illustration (simulation)
     </text>
 
     <!-- Paragraph lines -->
@@ -52,7 +52,7 @@
     <rect x="165" y="618" width="820" height="10" rx="5" fill="#ffffff" fill-opacity="0.10"/>
 
     <text x="1080" y="660" text-anchor="end" fill="#ffffff" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="12">
-      Capture simulée  usage illustration
+      Capture simulée - usage illustration
     </text>
   </g>
 </svg>

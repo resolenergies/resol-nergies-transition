@@ -26,7 +26,7 @@
     <circle cx="174" cy="97" r="7" fill="#28c840"/>
     <rect x="220" y="84" width="700" height="26" rx="13" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.10"/>
     <text x="240" y="102" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
-      Cadastre solaire  Perpignan Méditerranée Métropole (simulation)
+      Cadastre solaire - Perpignan Méditerranée Métropole (simulation)
     </text>
 
     <!-- Sidebar -->
@@ -93,7 +93,7 @@
 
     <!-- Watermark -->
     <text x="1080" y="660" text-anchor="end" fill="#ffffff" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="12">
-      Capture simulée  usage illustration
+      Capture simulée - usage illustration
     </text>
   </g>
 </svg>

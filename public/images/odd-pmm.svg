@@ -18,28 +18,28 @@
     <circle cx="174" cy="97" r="7" fill="#28c840"/>
     <rect x="220" y="84" width="700" height="26" rx="13" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.10"/>
     <text x="240" y="102" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
-      PDF (simulation)  Programme ODD · diagnostic potentiel ENR (PMM)
+      PDF (simulation) - Programme ODD · diagnostic potentiel ENR (PMM)
     </text>
 
     <!-- PDF viewer -->
     <rect x="130" y="145" width="940" height="505" rx="14" fill="#0f1833" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.10"/>
     <rect x="130" y="145" width="940" height="52" rx="14" fill="#0a1228" stroke="#ffffff" stroke-opacity="0.08"/>
     <text x="165" y="177" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
-      Programme ODD  synthèse (simulation) · Page 12/64
+      Programme ODD - synthèse (simulation) · Page 12/64
     </text>
     <rect x="900" y="162" width="140" height="18" rx="9" fill="#ffffff" fill-opacity="0.08"/>
     <text x="912" y="176" fill="#c7d2e8" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="11">
-      Recherche&
+      Recherche...
     </text>
 
     <!-- Page -->
     <rect x="175" y="220" width="850" height="400" rx="12" fill="#ffffff" fill-opacity="0.92"/>
     <rect x="175" y="220" width="850" height="62" rx="12" fill="#0f172a" fill-opacity="0.96"/>
     <text x="210" y="260" fill="#ffffff" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="18" font-weight="800">
-      Programme ODD  Transition énergétique
+      Programme ODD - Transition énergétique
     </text>
     <text x="210" y="305" fill="#0f172a" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="14" font-weight="800">
-      Diagnostic du potentiel ENR (extrait  simulation)
+      Diagnostic du potentiel ENR (extrait - simulation)
     </text>
     <rect x="210" y="320" width="770" height="10" rx="5" fill="#0f172a" fill-opacity="0.10"/>
     <rect x="210" y="342" width="740" height="10" rx="5" fill="#0f172a" fill-opacity="0.10"/>
@@ -70,7 +70,7 @@
     </text>
 
     <text x="1080" y="660" text-anchor="end" fill="#ffffff" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="12">
-      Capture simulée  usage illustration
+      Capture simulée - usage illustration
     </text>
   </g>
 </svg>
