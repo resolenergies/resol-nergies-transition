@@ -1,0 +1,138 @@
+{
+  "header": {
+    "services": "Nuestras competencias",
+    "approach": "Por qué elegirnos",
+    "clients": "Nuestros clientes",
+    "contact": "Contacto",
+    "cta": "Solicitar presupuesto"
+  },
+  "hero": {
+    "badge": "Su Referente Energético",
+    "title": "RESOL Energies:",
+    "titleHighlight": "Su Referente Energético",
+    "subtitle": "\"Porque la transición energética no se detiene en un informe de auditoría, pilotamos su estrategia desde dentro.\"",
+    "description": "A través de un paquete de tiempo regular, nos convertimos en su interlocutor único para coordinar todos sus retos energéticos.",
+    "ctaPrimary": "Descubrir nuestras competencias",
+    "ctaSecondary": "Conócenos",
+    "stat1Value": "14+",
+    "stat1Label": "Entidades acompañadas",
+    "stat2Value": "500+",
+    "stat2Label": "Proyectos realizados",
+    "stat3Value": "30%",
+    "stat3Label": "Ahorro medio"
+  },
+  "services": {
+    "sectionLabel": "Nuestras competencias",
+    "title": "Una misión de Referente que",
+    "titleHighlight": "articula nuestras competencias",
+    "subtitle": "Esta misión de Referente engloba y articula nuestras competencias que también puede solicitar de manera independiente.",
+    "whatWeDo": "Lo que hacemos:",
+    "example": "💡 Ejemplo concreto:",
+    "service1": {
+      "title": "Estrategia, Estudios y Diagnósticos",
+      "description": "Construir una estrategia energética adaptada a su patrimonio para disponer de una visión clara y objetiva.",
+      "details": "Inventario completo (edificios, alumbrado público, parque de vehículos), análisis de consumos y priorización de acciones.",
+      "example": "En lugar de renovar al azar, identificamos el edificio más energívoro de su parque para concentrar sus inversiones donde el retorno será más rápido."
+    },
+    "service2": {
+      "title": "Pilotaje y Seguimiento de Consumos",
+      "description": "Pilotar las acciones emprendidas y seguir la evolución real de sus consumos.",
+      "details": "Implementación de indicadores sencillos para responsables y técnicos, seguimiento regular y configuración de herramientas de pilotaje duraderas.",
+      "example": "El análisis mensual de sus consumos permite detectar inmediatamente una desviación debida a un mal ajuste de calefacción, evitando así un sobrecoste innecesario a fin de año."
+    },
+    "service3": {
+      "title": "Asistencia a la Dirección de Obra (AMO)",
+      "description": "Acciones concretas hacia la sobriedad, de la estrategia a la ejecución.",
+      "details": "Acompañamiento en renovaciones, estudios HVAC (calefacción, ventilación, climatización), soluciones low-tech y optimización de usos.",
+      "example": "Al reemplazar una caldera, le ayudamos a validar el sistema mejor adaptado a sus necesidades, garantizando que las obras entregadas correspondan a sus objetivos de ahorro."
+    },
+    "service4": {
+      "title": "Seguridad Reglamentaria",
+      "description": "Asegurar su estructura frente a las crecientes obligaciones legales.",
+      "details": "Identificación del patrimonio sujeto y cumplimiento de los decretos (Eco-energía terciario/OPERAT, BACS, Directiva de Eficiencia Energética).",
+      "example": "Nos encargamos de la carga anual de sus datos en la plataforma OPERAT para el Decreto Terciario, evitándole sanciones y riesgo de imagen por el \"Name & Shame\"."
+    },
+    "service5": {
+      "title": "Formación y Sensibilización",
+      "description": "Forme a su personal en gestión energética para ser autónomo.",
+      "details": "Sesiones de sensibilización sobre gestión energética y transición ecológica adaptadas a su contexto.",
+      "example": "Una formación in situ para enseñar a sus servicios técnicos cómo optimizar la configuración de la Gestión Técnica del Edificio (GTE) sin sacrificar el confort de los usuarios."
+    },
+    "custom": {
+      "title": "¿Necesita otra cosa?",
+      "description": "¿No encuentra lo que busca? Contáctenos para soluciones personalizadas y adaptadas a sus necesidades.",
+      "cta": "Contáctenos"
+    }
+  },
+  "whyReferent": {
+    "sectionLabel": "¿Por qué este formato?",
+    "title": "¿Por qué elegir el formato",
+    "titleHighlight": "\"Referente Energético\"",
+    "paragraph1": "Cada una de estas misiones puede realizarse puntualmente. Sin embargo, al elegir RESOL Energies como su Referente Energético, usted se beneficia de una <strong>coherencia global</strong>: sus diagnósticos alimentan su seguimiento, sus obras respetan la normativa y su personal se forma continuamente.",
+    "paragraph2": "Es la garantía de una transición energética que avanza cada mes, <strong>sin pesar en su masa salarial</strong>.",
+    "benefit1Title": "Experiencia a medida",
+    "benefit1Desc": "Se beneficia de un experto dedicado que conoce su patrimonio, sus equipos y sus restricciones al detalle.",
+    "benefit2Title": "Continuidad",
+    "benefit2Desc": "Se acabaron los expedientes estancados. Su transición energética avanza cada mes de forma fluida, sin interrupciones, incluso cuando sus equipos están ocupados en otro lugar.",
+    "benefit3Title": "Presupuesto controlado",
+    "benefit3Desc": "Un gasto de consultoría repartido a lo largo del año para una mejor visibilidad financiera, acompañado de asistencia prioritaria para todas sus urgencias.",
+    "ctaTitle": "Haga de la energía una palanca de rendimiento, no una limitación.",
+    "ctaText": "En un contexto de volatilidad de precios y endurecimiento regulatorio, la energía ya no debe ser una fatalidad presupuestaria. Al elegir RESOL Energies como su Referente Energético, transforma una gestión compleja en una trayectoria controlada. No nos limitamos a entregarle informes: actuamos a su lado para optimizar sus consumos, captar las ayudas disponibles (subvenciones, CEE) y asegurar su futuro energético.",
+    "ctaButton": "Encontrémonos"
+  },
+  "clients": {
+    "sectionLabel": "Nuestros clientes",
+    "title": "Una experiencia adaptada a",
+    "titleHighlight": "cada perfil",
+    "subtitle": "Ya sea una entidad pública, una empresa o un particular, adaptamos nuestro enfoque a sus retos específicos.",
+    "collectivites": {
+      "title": "Entidades públicas",
+      "description": "Ayuntamientos, mancomunidades, diputaciones y comunidades autónomas que desean optimizar su patrimonio público y reducir sus gastos energéticos.",
+      "features": ["Estrategia energética del patrimonio", "Plan plurianual de inversión", "Acompañamiento en financiaciones"]
+    },
+    "entreprises": {
+      "title": "Empresas",
+      "description": "PYMEs y grandes grupos que buscan controlar sus costes energéticos y mejorar su rendimiento ambiental.",
+      "features": ["Pilotaje de consumos", "Conformidad reglamentaria", "Optimización de usos"]
+    },
+    "particuliers": {
+      "title": "Particulares",
+      "description": "Propietarios y comunidades de propietarios que desean mejorar el confort de su hogar reduciendo sus facturas.",
+      "features": ["Asesoramiento en renovación energética", "Independencia energética", "Optimización del confort"]
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contacto",
+    "title": "¿Listo para retomar el control de",
+    "titleHighlight": "sus consumos?",
+    "subtitle": "Encontrémonos para definir el volumen de acompañamiento adaptado a sus necesidades y construir juntos una estrategia con sentido.",
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono",
+    "addressLabel": "Dirección",
+    "formTitle": "Solicite un presupuesto gratuito",
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Su nombre",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Su apellido",
+    "email": "Email",
+    "emailPlaceholder": "su@email.es",
+    "type": "Usted es",
+    "typeDefault": "Seleccione una opción",
+    "typeCollectivite": "Una entidad pública",
+    "typeEntreprise": "Una empresa",
+    "typeParticulier": "Un particular",
+    "message": "Su proyecto",
+    "messagePlaceholder": "Describa brevemente su proyecto o sus necesidades...",
+    "submit": "Enviar mi solicitud"
+  },
+  "footer": {
+    "description": "Su socio para una transición energética exitosa. Consultoría y acompañamiento para entidades públicas, empresas y particulares.",
+    "servicesTitle": "Servicios",
+    "service1": "Referente Energético",
+    "service2": "Estudios y Diagnósticos",
+    "service3": "Pilotaje y Seguimiento",
+    "contactTitle": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "planet": "Comprometidos con el planeta"
+  }
+}

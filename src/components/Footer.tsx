@@ -1,78 +1,54 @@
+import { useTranslation } from "react-i18next";
 import { Leaf } from "lucide-react";
+import logoResol from "@/assets/logo-resol-energies.png";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-foreground py-12">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid md:grid-cols-4 gap-8 mb-10">
-          {/* Brand */}
+        <div className="grid md:grid-cols-3 gap-8 mb-10">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">R</span>
-              </div>
-              <span className="font-display font-semibold text-xl text-primary-foreground">
-                Resol Énergies
+            <div className="mb-4 flex items-center gap-3">
+              <img src={logoResol} alt="RESOL Energies" className="h-10 w-auto brightness-0 invert" />
+              <span className="font-display text-lg text-primary-foreground">
+                RESOL ÉNERGIES | Marc Ribera Fuentes (PhD)
               </span>
             </div>
-            <p className="text-primary-foreground/60 max-w-sm leading-relaxed">
-              Votre partenaire pour une transition énergétique réussie. 
-              Conseil et accompagnement pour collectivités, entreprises et particuliers.
+            <p className="text-primary-foreground/70 max-w-xl leading-relaxed text-sm">
+              Docteur (UAB) en Sciences Environnementales &amp; Master Énergies Renouvelables (CIRCE).
+              Ancien cadre technique Perpignan Méditerranée Métropole, Ville de Colomiers, CC ACVI
+              et Département du Val-de-Marne. Référent TOTEN Occitanie et membre des réseaux
+              d&apos;experts de la transition énergétique.
             </p>
           </div>
 
-          {/* Links */}
-          <div>
-            <h4 className="font-display font-semibold text-primary-foreground mb-4">
-              Services
+          <div className="space-y-3">
+            <h4 className="font-display font-semibold text-primary-foreground">
+              Coordination projets &amp; AMO énergie
             </h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#services" className="text-primary-foreground/60 hover:text-accent transition-colors">
-                  Référent Énergie Délégué
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-primary-foreground/60 hover:text-accent transition-colors">
-                  Études & Diagnostics
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-primary-foreground/60 hover:text-accent transition-colors">
-                  Pilotage & Suivi
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-display font-semibold text-primary-foreground mb-4">
-              Contact
-            </h4>
-            <ul className="space-y-2">
-              <li className="text-primary-foreground/60">
-                contact@resol-energies.fr
-              </li>
-              <li className="text-primary-foreground/60">
-                01 23 45 67 89
-              </li>
-              <li className="text-primary-foreground/60">
-                Paris, France
-              </li>
+            <ul className="space-y-1 text-sm text-primary-foreground/70">
+              <li>Expert efficacité énergétique – Perpignan &amp; Occitanie</li>
+              <li>Consultant énergies renouvelables – collectivités &amp; SEM</li>
+              <li>AMO énergie pour cadastres solaires &amp; plans climat</li>
             </ul>
           </div>
         </div>
 
-        {/* Bottom */}
         <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {currentYear} Resol Énergies. Tous droits réservés.
+            © {currentYear} RESOL Energies. {t("footer.rights")}
           </p>
-          <div className="flex items-center gap-2 text-primary-foreground/50 text-sm">
-            <Leaf className="w-4 h-4 text-accent" />
-            <span>Engagés pour la planète</span>
+          <div className="flex flex-col md:flex-row md:items-center md:gap-4 text-primary-foreground/50 text-xs md:text-sm">
+            <div className="flex items-center gap-2">
+              <Leaf className="w-4 h-4 text-accent" />
+              <span>{t("footer.planet")}</span>
+            </div>
+            <p className="md:border-l md:border-primary-foreground/20 md:pl-3">
+              Expert efficacité énergétique Perpignan · Consultant énergies renouvelables Occitanie · AMO énergie collectivités
+            </p>
           </div>
         </div>
       </div>
