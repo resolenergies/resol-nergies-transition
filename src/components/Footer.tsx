@@ -14,25 +14,22 @@ const Footer = () => {
             <div className="mb-4 flex items-center gap-3">
               <img src={logoResol} alt="RESOL Energies" className="h-10 w-auto brightness-0 invert" />
               <span className="font-display text-lg text-primary-foreground">
-                RESOL ÉNERGIES | Marc Ribera Fuentes (PhD)
+                {t("footer.title")}
               </span>
             </div>
             <p className="text-primary-foreground/70 max-w-xl leading-relaxed text-sm">
-              Docteur (UAB) en Sciences Environnementales &amp; Master Énergies Renouvelables (CIRCE).
-              Ancien cadre technique Perpignan Méditerranée Métropole, Ville de Colomiers, CC ACVI
-              et Département du Val-de-Marne. Référent TOTEN Occitanie et membre des réseaux
-              d&apos;experts de la transition énergétique.
+              <span dangerouslySetInnerHTML={{ __html: t("footer.bio") }} />
             </p>
           </div>
 
           <div className="space-y-3">
             <h4 className="font-display font-semibold text-primary-foreground">
-              Coordination projets &amp; AMO énergie
+              {t("footer.coordinationTitle")}
             </h4>
             <ul className="space-y-1 text-sm text-primary-foreground/70">
-              <li>Expert efficacité énergétique – Perpignan &amp; Occitanie</li>
-              <li>Consultant énergies renouvelables – collectivités &amp; SEM</li>
-              <li>AMO énergie pour cadastres solaires &amp; plans climat</li>
+              <li>{t("footer.expertise1")}</li>
+              <li>{t("footer.expertise2")}</li>
+              <li>{t("footer.expertise3")}</li>
             </ul>
           </div>
         </div>
@@ -47,7 +44,7 @@ const Footer = () => {
               <span>{t("footer.planet")}</span>
             </div>
             <p className="md:border-l md:border-primary-foreground/20 md:pl-3">
-              Expert efficacité énergétique Perpignan · Consultant énergies renouvelables Occitanie · AMO énergie collectivités
+              {t("footer.expertiseFooter")}
             </p>
           </div>
         </div>
