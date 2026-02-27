@@ -27,7 +27,8 @@ const Hero = () => {
           </div>
 
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            {t("hero.title")}{" "}
+            {t("hero.title")}
+            <br />
             <span className="text-accent">{t("hero.titleHighlight")}</span>
           </h1>
 
