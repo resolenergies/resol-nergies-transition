@@ -125,6 +125,70 @@
     "messagePlaceholder": "Briefly describe your project or needs...",
     "submit": "Send my request"
   },
+  "expertProfile": {
+    "sectionLabel": "Expert profile",
+    "title": "Senior expertise at the crossroads of science, technology and territories.",
+    "description": "Marc Ribera Fuentes supports local authorities as a <strong>Dedicated Energy Officer</strong>, relying on a triple legitimacy: scientific, technical and institutional. This rare combination allows him to facilitate dialogue between climate strategy, energy engineering and operational constraints of services.",
+    "scientificPillar": {
+      "title": "Scientific pillar",
+      "degree": "PhD in Environmental Sciences – UAB",
+      "details": "Doctoral thesis on the development of tools for assessing the environmental behavior of territories, at the Autonomous University of Barcelona (UAB)."
+    },
+    "technicalPillar": {
+      "title": "Technical pillar",
+      "degree": "Master Renewable Energy &amp; Energy Efficiency – CIRCE",
+      "details": "Specialization in design and optimization of energy systems, at the Research Center for Energy Resources and Consumption (CIRCE)."
+    },
+    "institutionalPillar": {
+      "title": "Institutional pillar",
+      "degree": "10+ years at the heart of public energy policies",
+      "details": "Operational experience within Perpignan Méditerranée Métropole, the City of Colomiers, the ACVI Community of Communes and the Val-de-Marne Department, on energy strategy, solar cadastres, sobriety and heritage renovation."
+    }
+  },
+  "strategicProjects": {
+    "sectionLabel": "Strategic projects",
+    "title": "Concrete proof on the ground",
+    "description": "Each project illustrates a <strong>senior energy officer</strong> positioning: ability to structure data, dialogue with general management and transform diagnostics into operational decisions.",
+    "consultResource": "Consult the resource",
+    "networks": "Networks: TOTEN Occitanie, CARTE, press &amp; local authorities",
+    "projects": {
+      "cadastrePmm": {
+        "label": "Solar Cadastre & RE Potential – Perpignan Méditerranée Métropole",
+        "role": "Initiation, framing and technical steering for the 36 communes",
+        "description": "Implementation of the solar cadastre and study of the maximum renewable energy potential of the territory, referenced in the SDG program of PMM.",
+        "tag": "Territorial structuring project",
+        "mockupAlt": "Simulated screenshot: solar cadastre interface (PMM)."
+      },
+      "laroqueDiagnostic": {
+        "label": "Energy Sobriety – Global Diagnostic Laroque-des-Albères",
+        "role": "Energy AMO & coordination with local press",
+        "description": "Support for the municipality in defining a sobriety trajectory, highlighted in the local press (L'Indépendant).",
+        "tag": "Sobriety & education",
+        "mockupAlt": "Simulated screenshot: press article on energy sobriety."
+      },
+      "courOasis": {
+        "label": "Courtyard Oasis – Saint-Génis-des-Fontaines",
+        "role": "Technical officer recognized by the CARTE network",
+        "description": "Courtyard oasis project followed by the national CARTE network, as an example of urban cooling, summer comfort and co-construction with users.",
+        "tag": "Innovation & climate adaptation",
+        "mockupAlt": "Simulated screenshot: press article on a courtyard oasis."
+      },
+      "oddPmm": {
+        "label": "SDG Program – PMM",
+        "role": "Contribution to RE potential diagnosis and climate trajectory",
+        "description": "Integration of energy diagnosis and RE potential in the SDG program of Perpignan Méditerranée Métropole.",
+        "tag": "Climate strategy & SDGs",
+        "mockupAlt": "Simulated screenshot: PDF excerpt from the SDG program (RE potential diagnosis)."
+      },
+      "citoyenr": {
+        "label": "Citizen photovoltaic power plants – Citoy'enR",
+        "role": "Support for the scaling up of citizen projects",
+        "description": "Strategic support for citizen photovoltaic power plants, articulation with territorial energy policies.",
+        "tag": "Citizen renewable energies",
+        "mockupAlt": "Simulated screenshot: publication announcing a citizen photovoltaic power plant."
+      }
+    }
+  },
   "footer": {
     "description": "Your partner for a successful energy transition. Consulting and support for local authorities, businesses and individuals.",
     "servicesTitle": "Services",

@@ -125,6 +125,70 @@
     "messagePlaceholder": "Describa brevemente su proyecto o sus necesidades...",
     "submit": "Enviar mi solicitud"
   },
+  "expertProfile": {
+    "sectionLabel": "Perfil experto",
+    "title": "Una experiencia senior en la encrucijada de la ciencia, la técnica y los territorios.",
+    "description": "Marc Ribera Fuentes acompaña a las entidades como <strong>Referente energético dedicado</strong>, apoyándose en una triple legitimidad: científica, técnica e institucional. Esta combinación rara le permite hacer dialogar estrategia climática, ingeniería energética y restricciones operativas de los servicios.",
+    "scientificPillar": {
+      "title": "Pilar científico",
+      "degree": "Doctor (PhD) en Ciencias Ambientales – UAB",
+      "details": "Tesis doctoral sobre el desarrollo de herramientas de evaluación del comportamiento ambiental de los territorios, en la Universidad Autónoma de Barcelona (UAB)."
+    },
+    "technicalPillar": {
+      "title": "Pilar técnico",
+      "degree": "Máster Energías Renovables &amp; Eficiencia Energética – CIRCE",
+      "details": "Especialización en concepción y optimización de sistemas energéticos, en el Centro de Investigación sobre Recursos y Consumo de Energía (CIRCE)."
+    },
+    "institutionalPillar": {
+      "title": "Pilar institucional",
+      "degree": "10+ años en el corazón de las políticas públicas de la energía",
+      "details": "Experiencia operativa dentro de Perpignan Méditerranée Métropole, la Ciudad de Colomiers, la Comunidad de Comunas ACVI y el Departamento de Val-de-Marne, en los ámbitos estrategia energética, catastros solares, sobriedad y renovación del patrimonio."
+    }
+  },
+  "strategicProjects": {
+    "sectionLabel": "Proyectos estratégicos",
+    "title": "Pruebas concretas sobre el terreno",
+    "description": "Cada proyecto ilustra un posicionamiento de <strong>referente energético senior</strong>: capacidad de estructurar los datos, dialogar con las direcciones generales y transformar los diagnósticos en decisiones operativas.",
+    "consultResource": "Consultar el recurso",
+    "networks": "Redes: TOTEN Occitanie, CARTE, prensa &amp; entidades",
+    "projects": {
+      "cadastrePmm": {
+        "label": "Catastro Solar & Potencial ER – Perpignan Méditerranée Métropole",
+        "role": "Iniciación, encuadre y pilotaje técnico para los 36 municipios",
+        "description": "Puesta en marcha del catastro solar y estudio del potencial máximo en energías renovables del territorio, referenciados en el programa ODS de PMM.",
+        "tag": "Proyecto estructurante de territorio",
+        "mockupAlt": "Captura de pantalla simulada: interfaz de catastro solar (PMM)."
+      },
+      "laroqueDiagnostic": {
+        "label": "Sobriedad energética – Diagnóstico global Laroque-des-Albères",
+        "role": "AMO energía & coordinación con la prensa local",
+        "description": "Acompañamiento del municipio en la definición de una trayectoria de sobriedad, valorizada en la prensa local (L'Indépendant).",
+        "tag": "Sobriedad & pedagogía",
+        "mockupAlt": "Captura de pantalla simulada: artículo de prensa sobre la sobriedad energética."
+      },
+      "courOasis": {
+        "label": "Patio Oasis – Saint-Génis-des-Fontaines",
+        "role": "Referente técnico reconocido por la red CARTE",
+        "description": "Proyecto de patio oasis seguido por la red nacional CARTE, como ejemplo de refrigeración urbana, confort de verano y co-construcción con los usuarios.",
+        "tag": "Innovación & adaptación climática",
+        "mockupAlt": "Captura de pantalla simulada: artículo de prensa sobre un patio oasis."
+      },
+      "oddPmm": {
+        "label": "Programa ODS – PMM",
+        "role": "Contribución al diagnóstico del potencial ER y trayectoria climática",
+        "description": "Integración del diagnóstico energético y del potencial ER en el programa ODS de Perpignan Méditerranée Métropole.",
+        "tag": "Estrategia climática & ODS",
+        "mockupAlt": "Captura de pantalla simulada: extracto PDF del programa ODS (diagnóstico potencial ER)."
+      },
+      "citoyenr": {
+        "label": "Centrales fotovoltaicas ciudadanas – Ciudadanía'enR",
+        "role": "Apoyo a la escalada de proyectos ciudadanos",
+        "description": "Acompañamiento estratégico para centrales fotovoltaicas ciudadanas, articulación con las políticas energéticas de territorio.",
+        "tag": "Energías renovables ciudadanas",
+        "mockupAlt": "Captura de pantalla simulada: publicación anunciando una central fotovoltaica ciudadana."
+      }
+    }
+  },
   "footer": {
     "description": "Su socio para una transición energética exitosa. Consultoría y acompañamiento para entidades públicas, empresas y particulares.",
     "servicesTitle": "Servicios",

@@ -125,6 +125,70 @@
     "messagePlaceholder": "Décrivez brièvement votre projet ou vos besoins...",
     "submit": "Envoyer ma demande"
   },
+  "expertProfile": {
+    "sectionLabel": "Profil expert",
+    "title": "Une expertise senior au croisement de la science, de la technique et des territoires.",
+    "description": "Marc Ribera Fuentes accompagne les collectivités comme <strong>Référent énergie dédié</strong>, en s&apos;appuyant sur une triple légitimité : scientifique, technique et institutionnelle. Cette combinaison rare lui permet de faire dialoguer stratégie climatique, ingénierie énergétique et contraintes opérationnelles des services.",
+    "scientificPillar": {
+      "title": "Pilier scientifique",
+      "degree": "Docteur (PhD) en Sciences Environnementales – UAB",
+      "details": "Thèse doctorale sur le développement d&apos;outils d&apos;évaluation du comportement environnemental des territoires, à l&apos;Université Autonome de Barcelone (UAB)."
+    },
+    "technicalPillar": {
+      "title": "Pilier technique",
+      "degree": "Master Énergies Renouvelables &amp; Efficacité Énergétique – CIRCE",
+      "details": "Spécialisation en conception et optimisation de systèmes énergétiques, au Centre de Recherche sur les Ressources et la Consommation d&apos;Énergie (CIRCE)."
+    },
+    "institutionalPillar": {
+      "title": "Pilier institutionnel",
+      "degree": "10+ ans au cœur des politiques publiques de l&apos;énergie",
+      "details": "Expérience opérationnelle au sein de Perpignan Méditerranée Métropole, de la Ville de Colomiers, de la Communauté de Communes ACVI et du Département du Val-de-Marne, sur les volets stratégie énergétique, cadastres solaires, sobriété et rénovation du patrimoine."
+    }
+  },
+  "strategicProjects": {
+    "sectionLabel": "Projets stratégiques",
+    "title": "Des preuves concrètes sur le terrain",
+    "description": "Chaque projet illustre un positionnement de <strong>référent énergie senior</strong> : capacité à structurer les données, dialoguer avec les directions générales et transformer les diagnostics en décisions opérantes.",
+    "consultResource": "Consulter la ressource",
+    "networks": "Réseaux : TOTEN Occitanie, CARTE, presse &amp; collectivités",
+    "projects": {
+      "cadastrePmm": {
+        "label": "Cadastre Solaire & Potentiel ENR – Perpignan Méditerranée Métropole",
+        "role": "Initiation, cadrage et pilotage technique pour les 36 communes",
+        "description": "Mise en place du cadastre solaire et étude du potentiel maximal en énergies renouvelables du territoire, référencés dans le programme ODD de PMM.",
+        "tag": "Projet structurant de territoire",
+        "mockupAlt": "Capture d'écran simulée : interface de cadastre solaire (PMM)."
+      },
+      "laroqueDiagnostic": {
+        "label": "Sobriété énergétique – Diagnostic global Laroque-des-Albères",
+        "role": "AMO énergie & coordination avec la presse locale",
+        "description": "Accompagnement de la commune dans la définition d'une trajectoire de sobriété, valorisée dans la presse locale (L'Indépendant).",
+        "tag": "Sobriété & pédagogie",
+        "mockupAlt": "Capture d'écran simulée : article de presse sur la sobriété énergétique."
+      },
+      "courOasis": {
+        "label": "Cour Oasis – Saint-Génis-des-Fontaines",
+        "role": "Référent technique reconnu par le réseau CARTE",
+        "description": "Projet de cour oasis suivi par le réseau national CARTE, comme exemple de rafraîchissement urbain, de confort d'été et de co-construction avec les usagers.",
+        "tag": "Innovation & adaptation climatique",
+        "mockupAlt": "Capture d'écran simulée : article de presse sur une cour oasis."
+      },
+      "oddPmm": {
+        "label": "Programme ODD – PMM",
+        "role": "Contribution au diagnostic du potentiel ENR et trajectoire climat",
+        "description": "Intégration du diagnostic énergétique et du potentiel ENR dans le programme ODD de Perpignan Méditerranée Métropole.",
+        "tag": "Stratégie climat & ODD",
+        "mockupAlt": "Capture d'écran simulée : extrait PDF du programme ODD (diagnostic potentiel ENR)."
+      },
+      "citoyenr": {
+        "label": "Centrales photovoltaïques citoyennes – Citoy'enR",
+        "role": "Appui à la montée en puissance des projets citoyens",
+        "description": "Accompagnement stratégique pour des centrales photovoltaïques citoyennes, articulation avec les politiques énergétiques de territoire.",
+        "tag": "Énergies renouvelables citoyennes",
+        "mockupAlt": "Capture d'écran simulée : publication annonçant une centrale photovoltaïque citoyenne."
+      }
+    }
+  },
   "footer": {
     "description": "Votre partenaire pour une transition énergétique réussie. Conseil et accompagnement pour collectivités, entreprises et particuliers.",
     "servicesTitle": "Services",

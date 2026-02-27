@@ -125,6 +125,70 @@
     "messagePlaceholder": "Descriviu breument el vostre projecte o les vostres necessitats...",
     "submit": "Enviar la meva sol·licitud"
   },
+  "expertProfile": {
+    "sectionLabel": "Perfil expert",
+    "title": "Una expertícia sénior a la cruïlla de la ciència, la tècnica i els territoris.",
+    "description": "Marc Ribera Fuentes acompanya les entitats com a <strong>Referent energètic dedicat</strong>, recolzant-se en una triple legitimitat: científica, tècnica i institucional. Aquesta combinació rara li permet fer dialogar estratègia climàtica, enginyeria energètica i restriccions operatives dels serveis.",
+    "scientificPillar": {
+      "title": "Pilar científic",
+      "degree": "Doctor (PhD) en Ciències Ambientals – UAB",
+      "details": "Tesi doctoral sobre el desenvolupament d'eines d'avaluació del comportament ambiental dels territoris, a la Universitat Autònoma de Barcelona (UAB)."
+    },
+    "technicalPillar": {
+      "title": "Pilar tècnic",
+      "degree": "Màster Energies Renovables &amp; Eficiència Energètica – CIRCE",
+      "details": "Especialització en concepció i optimització de sistemes energètics, al Centre de Recerca sobre Recursos i Consum d'Energia (CIRCE)."
+    },
+    "institutionalPillar": {
+      "title": "Pilar institucional",
+      "degree": "10+ anys al cor de les polítiques públiques de l'energia",
+      "details": "Experiència operativa dins de Perpinyà Mediterrani Metròpoli, de la Ciutat de Colomiers, de la Comunitat de Comunes ACVI i del Departament de Val-de-Marne, en els àmbits estratègia energètica, cadastres solars, sobrietat i renovació del patrimoni."
+    }
+  },
+  "strategicProjects": {
+    "sectionLabel": "Projectes estratègics",
+    "title": "Proves concretes sobre el terreny",
+    "description": "Cada projecte il·lustra un posicionament de <strong>referent energètic sénior</strong>: capacitat d'estructurar les dades, dialogar amb les direccions generals i transformar els diagnòstics en decisions operatives.",
+    "consultResource": "Consultar el recurs",
+    "networks": "Xarxes: TOTEN Occitània, CARTE, premsa &amp; entitats",
+    "projects": {
+      "cadastrePmm": {
+        "label": "Cadastre Solar & Potencial ENR – Perpinyà Mediterrani Metròpoli",
+        "role": "Iniciació, emmarcament i pilotatge tècnic per als 36 municipis",
+        "description": "Posada en marxa del cadastre solar i estudi del potencial màxim en energies renovables del territori, referenciats en el programa ODD de PMM.",
+        "tag": "Projecte estructurant de territori",
+        "mockupAlt": "Captura de pantalla simulada: interfície de cadastre solar (PMM)."
+      },
+      "laroqueDiagnostic": {
+        "label": "Sobrietat energètica – Diagnòstic global Laroque-dels-Alberes",
+        "role": "AMO energia & coordinació amb la premsa local",
+        "description": "Acompanyament del municipi en la definició d'una trajectòria de sobrietat, valoritzada en la premsa local (L'Indépendant).",
+        "tag": "Sobrietat & pedagogia",
+        "mockupAlt": "Captura de pantalla simulada: article de premsa sobre la sobrietat energètica."
+      },
+      "courOasis": {
+        "label": "Pati Oasis – Sant Genís de les Fontaines",
+        "role": "Referent tècnic reconegut per la xarxa CARTE",
+        "description": "Projecte de pati oasis seguit per la xarxa nacional CARTE, com a exemple de refrescament urbà, confort d'estiu i co-construcció amb els usuaris.",
+        "tag": "Innovació & adaptació climàtica",
+        "mockupAlt": "Captura de pantalla simulada: article de premsa sobre un pati oasis."
+      },
+      "oddPmm": {
+        "label": "Programa ODD – PMM",
+        "role": "Contribució al diagnòstic del potencial ENR i trajectòria climàtica",
+        "description": "Integració del diagnòstic energètic i del potencial ENR en el programa ODD de Perpinyà Mediterrani Metròpoli.",
+        "tag": "Estratègia climàtica & ODD",
+        "mockupAlt": "Captura de pantalla simulada: extracte PDF del programa ODD (diagnòstic potencial ENR)."
+      },
+      "citoyenr": {
+        "label": "Centrals fotovoltaiques ciutadanes – Ciutad'enR",
+        "role": "Suport a la pujada en potència dels projectes ciutadans",
+        "description": "Acompanyament estratègic per a centrals fotovoltaiques ciutadanes, articulació amb les polítiques energètiques de territori.",
+        "tag": "Energies renovables ciutadanes",
+        "mockupAlt": "Captura de pantalla simulada: publicació anunciant una central fotovoltaiques ciutadana."
+      }
+    }
+  },
   "footer": {
     "description": "El vostre soci per a una transició energètica reeixida. Consultoria i acompanyament per a entitats públiques, empreses i particulars.",
     "servicesTitle": "Serveis",
