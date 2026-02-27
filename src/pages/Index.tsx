@@ -37,7 +37,7 @@ FN:Marc Ribera Fuentes
 N:Ribera Fuentes;Marc;;;
 ORG:Résol Énergies;
 EMAIL;TYPE=INTERNET:marc@resolenergies.com
-TEL;TYPE=CELL:+33 6 47 43 82 58
+TEL;TYPE=CELL:+33 6 40 30 53 26
 ADR;TYPE=WORK:;;Perpignan;;;France
 URL:https://www.resolenergies.com
 PHOTO;VALUE=URI:https://www.resolenergies.com/images/logo-resol-energies.png
@@ -72,6 +72,13 @@ END:VCARD`;
                 >
                   Ajouter le contact à mon téléphone
                 </button>
+                <p className="text-sm text-muted-foreground">
+                  Sur iPhone (Safari, Firefox, Chrome) : si le contact ne
+                  s&apos;ouvre pas automatiquement, ouvrez le fichier téléchargé
+                  <span className="font-semibold"> contact.vcf </span>
+                  depuis vos téléchargements puis choisissez de l&apos;ajouter
+                  à vos contacts.
+                </p>
               </div>
             </div>
           </section>

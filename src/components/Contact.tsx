@@ -57,10 +57,10 @@ const Contact = () => {
                   <p className="text-sm text-muted-foreground">{t("contact.phoneLabel")}</p>
                   <span
                     className="text-foreground font-medium hover:text-primary transition-colors cursor-pointer"
-                    onClick={() => window.location.href = 'tel:' + ['+33','(0)6','47','43','82','58'].join('')}
+                    onClick={() => window.location.href = 'tel:' + ['+33','(0)6','40','30','53','26'].join('')}
                     aria-label="Appeler"
                   >
-                    {['+33','(0)6','.47','.43','.82','.58'].join('\u200B')}
+                    {['+33','(0)6','.40','.30','.53','.26'].join('\u200B')}
                   </span>
                 </div>
               </div>
