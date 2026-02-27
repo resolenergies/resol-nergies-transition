@@ -9,7 +9,7 @@ const projects = [
       "Mise en place du cadastre solaire et étude du potentiel maximal en énergies renouvelables du territoire, référencés dans le programme ODD de PMM.",
     tag: "Projet structurant de territoire",
     link: "https://toten-occitanie.fr/IMG/pdf/202010_club_tuto_fa_cadastresolaire.pdf",
-    mockupSrc: "/mockups/cadastre-pmm.svg",
+    mockupFile: "cadastre-pmm.svg",
     mockupAlt: "Capture d’écran simulée : interface de cadastre solaire (PMM).",
     accent: "bg-emerald-500/10 text-emerald-500",
   },
@@ -21,7 +21,7 @@ const projects = [
       "Accompagnement de la commune dans la définition d’une trajectoire de sobriété, valorisée dans la presse locale (L’Indépendant).",
     tag: "Sobriété & pédagogie",
     link: "https://www.lindependant.fr/2025/01/25/laroque-des-alberes-sobriete-energetique-un-diagnostic-pour-la-mairie-12470316.php",
-    mockupSrc: "/mockups/laroque-diagnostic.svg",
+    mockupFile: "laroque-diagnostic.svg",
     mockupAlt: "Capture d’écran simulée : article de presse sur la sobriété énergétique.",
     accent: "bg-sky-500/10 text-sky-500",
   },
@@ -33,7 +33,7 @@ const projects = [
       "Projet de cour oasis suivi par le réseau national CARTE, comme exemple de rafraîchissement urbain, de confort d’été et de co-construction avec les usagers.",
     tag: "Innovation & adaptation climatique",
     link: "https://www.lindependant.fr/2025/07/09/la-cour-oasis-de-lecole-de-saint-genis-des-fontaines-inspire-les-experts-du-reseau-carte-12816865.php",
-    mockupSrc: "/mockups/cour-oasis.svg",
+    mockupFile: "cour-oasis.svg",
     mockupAlt: "Capture d’écran simulée : article de presse sur une cour oasis.",
     accent: "bg-amber-500/10 text-amber-500",
   },
@@ -45,7 +45,7 @@ const projects = [
       "Intégration du diagnostic énergétique et du potentiel ENR dans le programme ODD de Perpignan Méditerranée Métropole.",
     tag: "Stratégie climat & ODD",
     link: "https://perpignanmediterraneemetropole.fr/wp-content/uploads/2022/04/programme-odd.pdf",
-    mockupSrc: "/mockups/odd-pmm.svg",
+    mockupFile: "odd-pmm.svg",
     mockupAlt: "Capture d’écran simulée : extrait PDF du programme ODD (diagnostic potentiel ENR).",
     accent: "bg-violet-500/10 text-violet-500",
   },
@@ -57,7 +57,7 @@ const projects = [
       "Accompagnement stratégique pour des centrales photovoltaïques citoyennes, articulation avec les politiques énergétiques de territoire.",
     tag: "Énergies renouvelables citoyennes",
     link: "https://www.facebook.com/citoyenr/photos/1252046450253971/",
-    mockupSrc: "/mockups/citoyenr.svg",
+    mockupFile: "citoyenr.svg",
     mockupAlt: "Capture d’écran simulée : publication annonçant une centrale photovoltaïque citoyenne.",
     accent: "bg-emerald-500/10 text-emerald-500",
   },
@@ -69,7 +69,7 @@ const projects = [
       "Mise en récit d’un bilan énergétique complet, relayé par la Ville de Colomiers sur LinkedIn pour partager la trajectoire de transition.",
     tag: "Pilotage & communication",
     link: "https://www.linkedin.com/posts/mairie-colomiers_colomiers-transitionecologique-energie-activity-7272618988017238016-xd2O/",
-    mockupSrc: "/mockups/colomiers.svg",
+    mockupFile: "colomiers.svg",
     mockupAlt: "Capture d’écran simulée : post LinkedIn sur le bilan énergétique 2024.",
     accent: "bg-blue-500/10 text-blue-500",
   },
@@ -120,7 +120,7 @@ const StrategicProjects = () => {
               <div className="p-5 space-y-4">
                 <div className="rounded-xl border border-border/70 bg-muted/20 p-3">
                   <img
-                    src={project.mockupSrc}
+                    src={`${import.meta.env.BASE_URL}images/${project.mockupFile}`}
                     alt={project.mockupAlt}
                     loading="lazy"
                     className="w-full h-auto rounded-lg border border-border/60 bg-background"
