@@ -9,6 +9,23 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation();
 
+  const goToQuoteForm = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      // Compense un peu le header fixe
+      window.setTimeout(() => {
+        window.scrollBy({ top: -96, left: 0, behavior: "smooth" });
+      }, 250);
+    }
+
+    window.setTimeout(() => {
+      const firstNameInput = document.getElementById("firstName") as HTMLInputElement | null;
+      firstNameInput?.focus();
+    }, 500);
+  };
+
   const navLinks = [
     { href: "#services", label: t("header.services") },
     { href: "#approche", label: t("header.approach") },
@@ -35,7 +52,14 @@ const Header = () => {
               </a>
             ))}
             <LanguageSwitcher />
-            <Button variant="default" size="default">
+            <Button
+              type="button"
+              variant="default"
+              size="default"
+              onClick={() => {
+                goToQuoteForm();
+              }}
+            >
               {t("header.cta")}
             </Button>
           </nav>
@@ -69,7 +93,16 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="default" size="default" className="mt-2">
+              <Button
+                type="button"
+                variant="default"
+                size="default"
+                className="mt-2"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  goToQuoteForm();
+                }}
+              >
                 {t("header.cta")}
               </Button>
             </div>
