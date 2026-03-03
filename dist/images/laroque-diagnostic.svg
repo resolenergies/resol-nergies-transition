@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#111a34"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="70" width="1020" height="610" rx="18" fill="#0b1020" fill-opacity="0.55" stroke="#ffffff" stroke-opacity="0.14"/>
+    <rect x="90" y="70" width="1020" height="54" rx="18" fill="#0b1020" stroke="#ffffff" stroke-opacity="0.10"/>
+    <circle cx="126" cy="97" r="7" fill="#ff5f57"/>
+    <circle cx="150" cy="97" r="7" fill="#febc2e"/>
+    <circle cx="174" cy="97" r="7" fill="#28c840"/>
+    <rect x="220" y="84" width="700" height="26" rx="13" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.10"/>
+    <text x="240" y="102" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
+      Article presse (simulation) - sobriété énergétique · Laroque-des-Albères
+    </text>
+
+    <!-- Article layout -->
+    <rect x="130" y="145" width="940" height="505" rx="14" fill="#0f1833" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.10"/>
+    <text x="165" y="190" fill="#ffffff" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="14" font-weight="700" opacity="0.85">
+      Presse locale · Énergie
+    </text>
+    <text x="165" y="228" fill="#ffffff" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="28" font-weight="800">
+      Sobriété énergétique : un diagnostic pour la mairie
+    </text>
+    <text x="165" y="258" fill="#c7d2e8" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="13">
+      Laroque-des-Albères · 2025 · Capture simulée à des fins d'illustration
+    </text>
+
+    <!-- Hero image placeholder -->
+    <rect x="165" y="286" width="870" height="220" rx="14" fill="#061027" stroke="#ffffff" stroke-opacity="0.10"/>
+    <path d="M190 470 C290 380, 360 430, 460 360 C570 280, 650 340, 740 300 C830 260, 920 300, 1010 360" stroke="#22c55e" stroke-opacity="0.35" stroke-width="10" fill="none"/>
+    <circle cx="300" cy="420" r="10" fill="#22c55e" opacity="0.8"/>
+    <circle cx="620" cy="350" r="10" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="900" cy="310" r="10" fill="#22c55e" opacity="0.8"/>
+    <text x="190" y="315" fill="#e6edf7" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="12" opacity="0.85">
+      Visuel d'illustration (simulation)
+    </text>
+
+    <!-- Paragraph lines -->
+    <rect x="165" y="530" width="840" height="10" rx="5" fill="#ffffff" fill-opacity="0.10"/>
+    <rect x="165" y="552" width="880" height="10" rx="5" fill="#ffffff" fill-opacity="0.10"/>
+    <rect x="165" y="574" width="860" height="10" rx="5" fill="#ffffff" fill-opacity="0.10"/>
+    <rect x="165" y="596" width="780" height="10" rx="5" fill="#ffffff" fill-opacity="0.10"/>
+    <rect x="165" y="618" width="820" height="10" rx="5" fill="#ffffff" fill-opacity="0.10"/>
+
+    <text x="1080" y="660" text-anchor="end" fill="#ffffff" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, Arial" font-size="12">
+      Capture simulée - usage illustration
+    </text>
+  </g>
+</svg>
+
