@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Leaf } from "lucide-react";
-import logoResol from "@/assets/logo quadri v.png";
+import logoResol from "@/assets/logo-quadri-v.png";
 
 const Footer = () => {
   const { t } = useTranslation();
