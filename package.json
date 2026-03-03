@@ -6,6 +6,7 @@
   "homepage": "https://resolenergies.github.io/resol-nergies-transition",
   "scripts": {
     "dev": "vite",
+    "build:dev": "vite build --mode development",
     "build": "vite build",
     "build:prod": "vite build --mode production",
     "predeploy": "npm run build",
