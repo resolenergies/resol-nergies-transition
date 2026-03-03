@@ -31,24 +31,8 @@ const Index = () => {
   }, []);
 
   const handleAddContact = () => {
-    // Version data: URL pour iOS (iPhone) : certains Safari gèrent mieux
-    // une vCard intégrée qu'un fichier distant servi avec un mauvais Content-Type.
-    const vcfContent = `BEGIN:VCARD
-VERSION:3.0
-FN:Marc Ribera Fuentes
-N:Ribera Fuentes;Marc;;;
-ORG:Résol Énergies;
-EMAIL;TYPE=INTERNET:marc@resolenergies.com
-TEL;TYPE=CELL:+33 6 40 30 53 26
-ADR;TYPE=WORK:;;Perpignan;;;France
-URL:https://www.resolenergies.com
-PHOTO;VALUE=URI:https://www.resolenergies.com/images/logo-resol-energies.png
-END:VCARD`;
-
-    const encoded = encodeURIComponent(vcfContent);
-    const dataUrl = `data:text/vcard;charset=utf-8,${encoded}`;
-
-    window.location.href = dataUrl;
+    // Lien direct vers le fichier .vcf statique — fonctionne sur iOS Safari/Chrome/Firefox
+    window.location.href = "/contact.vcf";
   };
 
   return (
