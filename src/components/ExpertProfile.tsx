@@ -1,8 +1,15 @@
 import { useTranslation } from "react-i18next";
-import { GraduationCap, Atom, Landmark } from "lucide-react";
+import { GraduationCap, Atom, Landmark, Handshake } from "lucide-react";
 
 const ExpertProfile = () => {
   const { t } = useTranslation();
+
+  const pillars = [
+    { icon: Atom, key: "scientificPillar" },
+    { icon: GraduationCap, key: "technicalPillar" },
+    { icon: Landmark, key: "institutionalPillar" },
+    { icon: Handshake, key: "partnerPillar" },
+  ];
 
   return (
     <section className="py-20 md:py-28 bg-background">
@@ -22,56 +29,24 @@ const ExpertProfile = () => {
           </div>
 
           <div className="space-y-4">
-            <div className="flex gap-4 rounded-2xl border border-border bg-card/60 p-5">
-              <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
-                <Atom className="h-5 w-5 text-primary" />
+            {pillars.map(({ icon: Icon, key }) => (
+              <div key={key} className="flex gap-4 rounded-2xl border border-border bg-card/60 p-5">
+                <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+                  <Icon className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-1">
+                    {t(`expertProfile.${key}.title`)}
+                  </p>
+                  <p className="font-display text-base font-semibold text-foreground">
+                    {t(`expertProfile.${key}.degree`)}
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    {t(`expertProfile.${key}.details`)}
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-1">
-                  {t("expertProfile.scientificPillar.title")}
-                </p>
-                <p className="font-display text-base font-semibold text-foreground">
-                  {t("expertProfile.scientificPillar.degree")}
-                </p>
-                <p className="text-sm text-muted-foreground mt-1">
-                  {t("expertProfile.scientificPillar.details")}
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4 rounded-2xl border border-border bg-card/60 p-5">
-              <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
-                <GraduationCap className="h-5 w-5 text-primary" />
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-1">
-                  {t("expertProfile.technicalPillar.title")}
-                </p>
-                <p className="font-display text-base font-semibold text-foreground">
-                  {t("expertProfile.technicalPillar.degree")}
-                </p>
-                <p className="text-sm text-muted-foreground mt-1">
-                  {t("expertProfile.technicalPillar.details")}
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4 rounded-2xl border border-border bg-card/60 p-5">
-              <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
-                <Landmark className="h-5 w-5 text-primary" />
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-1">
-                  {t("expertProfile.institutionalPillar.title")}
-                </p>
-                <p className="font-display text-base font-semibold text-foreground">
-                  {t("expertProfile.institutionalPillar.degree")}
-                </p>
-                <p className="text-sm text-muted-foreground mt-1">
-                  {t("expertProfile.institutionalPillar.details")}
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

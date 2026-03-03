@@ -98,7 +98,7 @@
     "particuliers": {
       "title": "Particulares",
       "description": "Propietarios y comunidades de propietarios que desean mejorar el confort de su hogar reduciendo sus facturas.",
-      "features": ["Asesoramiento en renovación energética", "Independencia energética", "Optimización del confort"]
+      "features": ["Asesoramiento en renovación energética", "Autonomía energética en caso de corte eléctrico", "Optimización del confort"]
     }
   },
   "contact": {
@@ -143,6 +143,11 @@
       "title": "Pilar institucional",
       "degree": "10+ años en el corazón de las políticas públicas de la energía",
       "details": "Experiencia operativa dentro de Perpignan Méditerranée Métropole, la Ciudad de Colomiers, la Comunidad de Comunas ACVI y el Departamento de Val-de-Marne, en los ámbitos estrategia energética, catastros solares, sobriedad y renovación del patrimonio."
+    },
+    "partnerPillar": {
+      "title": "Socio de confianza",
+      "degree": "Una red de socios comprometidos con la transición",
+      "details": "RESOL Energies ha establecido alianzas duraderas con actores de confianza, comprometidos con la transición energética y la sobriedad: oficinas técnicas, instaladores certificados, entidades públicas y asociaciones especializadas."
     }
   },
   "strategicProjects": {

@@ -86,8 +86,8 @@ END:VCARD`;
           </section>
         )}
         <Hero />
-        <ExpertProfile />
         <Services />
+        <ExpertProfile />
         <StrategicProjects />
         <WhyReferent />
         <Clients />

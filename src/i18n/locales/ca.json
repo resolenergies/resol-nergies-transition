@@ -98,7 +98,7 @@
     "particuliers": {
       "title": "Particulars",
       "description": "Propietaris i comunitats de propietaris que desitgen millorar el confort del seu habitatge reduint les seves factures.",
-      "features": ["Assessorament en renovació energètica", "Independència energètica", "Optimització del confort"]
+      "features": ["Assessorament en renovació energètica", "Autonomia energètica en cas de tall elèctric", "Optimització del confort"]
     }
   },
   "contact": {
@@ -143,6 +143,11 @@
       "title": "Pilar institucional",
       "degree": "10+ anys al cor de les polítiques públiques de l'energia",
       "details": "Experiència operativa dins de Perpinyà Mediterrani Metròpoli, de la Ciutat de Colomiers, de la Comunitat de Comunes ACVI i del Departament de Val-de-Marne, en els àmbits estratègia energètica, cadastres solars, sobrietat i renovació del patrimoni."
+    },
+    "partnerPillar": {
+      "title": "Soci de confiança",
+      "degree": "Una xarxa de socis compromesos amb la transició",
+      "details": "RESOL Energies ha establert aliances duradores amb actors de confiança, compromesos amb la transició energètica i la sobrietat: oficines tècniques, instal·ladors certificats, entitats públiques i associacions especialitzades."
     }
   },
   "strategicProjects": {
