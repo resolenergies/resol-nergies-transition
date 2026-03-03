@@ -98,7 +98,7 @@
     "particuliers": {
       "title": "Individuals",
       "description": "Homeowners and co-owners wishing to improve the comfort of their homes while reducing their bills.",
-      "features": ["Energy renovation advice", "Energy independence", "Comfort optimisation"]
+      "features": ["Energy renovation advice", "Energy autonomy during power outages", "Comfort optimisation"]
     }
   },
   "contact": {
@@ -143,6 +143,11 @@
       "title": "Institutional pillar",
       "degree": "10+ years at the heart of public energy policies",
       "details": "Operational experience within Perpignan Méditerranée Métropole, the City of Colomiers, the ACVI Community of Communes and the Val-de-Marne Department, on energy strategy, solar cadastres, sobriety and heritage renovation."
+    },
+    "partnerPillar": {
+      "title": "Trusted partner",
+      "degree": "A network of partners committed to the transition",
+      "details": "RESOL Energies has established lasting partnerships with trusted stakeholders committed to the energy transition and sobriety: engineering firms, certified installers, local authorities and specialised associations."
     }
   },
   "strategicProjects": {
