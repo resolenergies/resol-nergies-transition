@@ -6,17 +6,15 @@
   "homepage": "https://resolenergies.github.io/resol-nergies-transition",
   "scripts": {
     "dev": "vite",
-    "build:dev": "vite build --mode development",
     "build": "vite build",
+    "build:dev": "vite build --mode development",
     "build:prod": "vite build --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
