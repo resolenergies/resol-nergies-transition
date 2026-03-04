@@ -18,7 +18,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-primary-foreground/70 max-w-xl leading-relaxed text-sm">
-              <span dangerouslySetInnerHTML={{ __html: t("footer.bio") }} />
+              {t("footer.bio")}
             </p>
           </div>
 
